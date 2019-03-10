@@ -10,9 +10,18 @@ const EventPhotos = props => {
       1024: { items: 4 }
     }
 
+    let stagePadding = {
+      paddingLeft: '5px',
+      paddingRight: '0px'
+    }
+
     const handleOnDragStart = e => e.preventDefault()
     return (
-      <AliceCarousel mouseDragEnabled responsive={responsive}>
+      <AliceCarousel
+        mouseDragEnabled
+        responsive={responsive}
+        stagePadding={stagePadding}
+        buttonsDisabled={true}>
         <img
           src="holder.js/300x300"
           onDragStart={handleOnDragStart}
@@ -42,7 +51,7 @@ const EventPhotos = props => {
     )
   }
 
-  return <div>{Gallery()}</div>
+  return <div className="mt-5">{Gallery()}</div>
 }
 
 export default EventPhotos
