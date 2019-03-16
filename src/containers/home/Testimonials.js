@@ -69,12 +69,15 @@ const Testimonials = props => {
   return (
     <div className="mt-5">
       <Container>
-        <Row>
+        <Row style={{ marginBottom: '15px' }}>
           <Col>
-            <h2>people are saying</h2>
+            <div class="title-header">
+              <span class="title-header-initial">people</span> are saying
+            </div>
           </Col>
         </Row>
         {displayTestimonials()}
+        <Row style={{ marginBottom: '40px' }} />
       </Container>
     </div>
   )

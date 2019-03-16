@@ -1,49 +1,54 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
-const EventPhotos = props => {
+const EventPhotos = () => {
   const Gallery = () => {
+    const handleOnDragStart = e => e.preventDefault()
     let responsive = {
       0: { items: 1 },
+      600: { items: 2 },
       1024: { items: 4 }
     }
-
-    let stagePadding = {
-      paddingLeft: '5px',
-      paddingRight: '0px'
-    }
-
-    const handleOnDragStart = e => e.preventDefault()
     return (
       <AliceCarousel
         mouseDragEnabled
         responsive={responsive}
-        stagePadding={stagePadding}
+        autoPlay={true}
+        autoPlayInterval={2000}
+        fadeOutAnimation={true}
+        dotsDisabled={true}
         buttonsDisabled={true}>
         <img
-          src="holder.js/300x300"
+          src="holder.js/300x300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300"
+          src="holder.js/300x300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300"
+          src="holder.js/300x300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300"
+          src="holder.js/300x300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300"
+          src="holder.js/300x300?auto=yes"
+          onDragStart={handleOnDragStart}
+          className="yours-custom-class"
+        />
+        <img
+          src="holder.js/300x300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
@@ -51,7 +56,20 @@ const EventPhotos = props => {
     )
   }
 
-  return <div className="mt-5">{Gallery()}</div>
+  return (
+    <div>
+      <Container>
+        <Row>
+          <Col>
+            <p class="title-header">
+              <span class="title-header-initial">#</span>SwaTaleem
+            </p>
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid>{Gallery()}</Container>
+    </div>
+  )
 }
 
 export default EventPhotos

@@ -9,9 +9,10 @@ const OngoingProject = () => (
     <Jumbotron fluid>
       <Container src="holder.js/1200*500">
         <Row>
-          <Col />
+          <Col xs={0} md={3} />
+          <Col xs={0} md={3} />
           <Col>
-            <Card style={{ width: '30rem', height: '20rem' }}>
+            <Card>
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">

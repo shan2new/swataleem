@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 const TopNav = () => (
-  <Navbar bg="light" expand="lg" sticky="top">
+  <Navbar expand="lg">
     <Navbar.Brand href="#home">SwaTaleem</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">

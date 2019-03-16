@@ -3,54 +3,55 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Media from 'react-bootstrap/Media'
+import Image from 'react-bootstrap/Image'
 
 const Pitch = props => (
   <div className="mt-5">
     <Container>
       <Row>
-        <Col>why we Care</Col>
-      </Row>
-      <Row>
-        <Col>
-          <Media>
-            <img
-              width={500}
-              height={400}
-              className="mr-3"
-              src="holder.js/500x400"
-              alt="Generic placeholder"
-            />
-            <Media.Body>
-              <h5>Media Heading</h5>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
-              </p>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
-              </p>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
-              </p>
-            </Media.Body>
-          </Media>
+        <Col sm={12} md={6}>
+          <div class="title-header">
+            <span class="title-header-initial">why</span> we care
+          </div>
         </Col>
       </Row>
       <Row>
-        <Col>What we do</Col>
-        <Col>How We work</Col>
+        <Col sm={12} md={6}>
+          <Image src="https://www.filemakerprogurus.com/wp-content/uploads/2015/12/Glyph.svg" />
+        </Col>
+        <Col>
+          <p>
+            It’s a harsh reality that quality education is still a privilege for
+            a major chunk of our society. The chance of getting it reduces
+            manifolds with each layer of existing oppressive structure be it
+            through gender, caste or economy.
+          </p>
+          <ul>
+            <li>
+              Drop out rate at secondary level - 17.06% for SCs - 19.36%, for
+              STs - 24.68%
+            </li>
+            <li>Out of School children - 4.5 crore</li>
+            <li>
+              In rural India, the latest edition of the "Annual State of
+              Education report" (ASER) shows that only 47.8% of class V students
+              can read a class II-level text and only 43% of class VIII students
+              can do class V-level arithmetic.
+            </li>
+          </ul>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <div class="title-header">
+            <span class="title-header-initial">what</span> we do
+          </div>
+        </Col>
+        <Col>
+          <div class="title-header">
+            <span class="title-header-initial">how</span> we work
+          </div>
+        </Col>
       </Row>
     </Container>
   </div>
