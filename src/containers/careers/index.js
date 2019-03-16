@@ -1,9 +1,17 @@
 import React from 'react'
+import Banner from './Banner'
+import JobQuery from './JobQuery'
+import Values from './Values'
+import Team from './Team'
+import TempRoles from './TempRoles'
 
-const Careers = () => (
+const Careers = props => (
   <div>
-    <h1>About Page</h1>
-    <p>Did you get here via Redux?</p>
+    <Banner />
+    <Team />
+    <Values />
+    <JobQuery />
+    <TempRoles />
   </div>
 )
 
