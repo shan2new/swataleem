@@ -39,6 +39,18 @@ const BannerCarousal = props => (
         </Carousel.Caption>
         <img
           className="d-block w-100"
+          src="holder.js/1200x700?theme=industrial"
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Carousel.Caption>
+          <h3> Awake, Arise and Educate.</h3>
+          <h2>Smash traditions, liberate. </h2>
+          <p>Savitri Bai Phule</p>
+        </Carousel.Caption>
+        <img
+          className="d-block w-100"
           src="holder.js/1200x700?theme=social"
           alt="Third slide"
         />

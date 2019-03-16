@@ -1,9 +1,17 @@
 import React from 'react'
+import Banner from './Banner'
+import Vision from './Vision'
+import Values from './Values'
+import Team from './Team'
+import Mentor from './Mentor'
 
-const About = () => (
+const About = props => (
   <div>
-    <h1>About Page</h1>
-    <p>Did you get here via Redux?</p>
+    <Banner />
+    <Vision />
+    <Values />
+    <Team />
+    <Mentor />
   </div>
 )
 
