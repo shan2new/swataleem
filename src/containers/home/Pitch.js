@@ -17,7 +17,7 @@ const Pitch = props => (
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Image src="https://www.filemakerprogurus.com/wp-content/uploads/2015/12/Glyph.svg" />
+          <Image src="holder.js/98px300?auto=yes" />
         </Col>
         <Col>
           <p>

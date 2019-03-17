@@ -12,7 +12,7 @@ const TopNav = () => (
       paddingTop: '24px',
       paddingBottom: '5px'
     }}>
-    <Navbar.Brand href="#home">
+    <Navbar.Brand href="/home">
       <img
         src={ValuesImages}
         width="60"

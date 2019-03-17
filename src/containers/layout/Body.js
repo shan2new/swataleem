@@ -8,6 +8,7 @@ import Careers from '../careers'
 const Body = () => (
   <main>
     <Route exact path="/" component={Home} />
+    <Route exact path="/home" component={Home} />
     <Route exact path="/about" component={About} />
     <Route exact path="/donations" component={Donations} />
     <Route exact path="/careers" component={Careers} />

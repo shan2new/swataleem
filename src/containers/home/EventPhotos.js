@@ -23,32 +23,32 @@ const EventPhotos = () => {
         dotsDisabled={true}
         buttonsDisabled={true}>
         <img
-          src="holder.js/300x300?auto=yes"
+          src="holder.js/98px300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300?auto=yes"
+          src="holder.js/98px300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300?auto=yes"
+          src="holder.js/98px300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300?auto=yes"
+          src="holder.js/98px300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300?auto=yes"
+          src="holder.js/98px300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />
         <img
-          src="holder.js/300x300?auto=yes"
+          src="holder.js/98px300?auto=yes"
           onDragStart={handleOnDragStart}
           className="yours-custom-class"
         />

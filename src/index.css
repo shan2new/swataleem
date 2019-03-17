@@ -24,10 +24,20 @@ button:disabled {
 }
 
 .title-header {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 800;
 }
 
 .title-header-initial {
   font-weight: 200;
+}
+
+.carousel-indicators li {
+  border-top: unset;
+  border-bottom: unset;
+  width: 9px;
+  height: 9px;
+  border-radius: 10px;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
 }
