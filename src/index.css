@@ -48,6 +48,12 @@ button:disabled {
   transform: translateY(-25%);
 }
 
+@media (max-width: 500px) {
+  .carousel-caption {
+    transform: translateY(-50%);
+  }
+}
+
 ul {
   padding-inline-start: 20px;
 }
@@ -57,5 +63,24 @@ ul {
 }
 
 .lh-15 {
-  line-height: 15px;
+  line-height: 20px;
+}
+
+.btn-outline-danger {
+  color: #ec3766;
+  border-color: #ec3766;
+  border-radius: 0px;
+}
+
+.btn-outline-danger:hover {
+  color: #fff !important;
+  background-color: #ec3766;
+  border-color: #ec3766;
+}
+
+.theme-font {
+  color: #ec3766 !important;
+}
+.fz-16 {
+  font-size: 16px;
 }

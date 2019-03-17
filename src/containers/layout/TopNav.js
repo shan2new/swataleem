@@ -23,7 +23,7 @@ const TopNav = () => (
       />
       <span
         class="title-header"
-        style={{ letterSpacing: '-3px', fontSize: '35px', fontWeight: '900' }}>
+        style={{ letterSpacing: '-2px', fontSize: '35px', fontWeight: '900' }}>
         <span class="title-header-initial">swa</span>taleem
       </span>
     </Navbar.Brand>

@@ -39,19 +39,21 @@ const Feed = () => {
         <Col xs={12} md={4}>
           <Card.Img
             variant="top"
-            src="https://cdn0.froala.com/assets/editor/pages/B/frameworks/react-6a9ca3fcd0c84c07c1d8bbbad0eb7dfe.svg"
+            src="holder.js/100px300?auto=yes"
+            style={{ borderRadius: 'none' }}
           />
-          <Card>
+          <Card style={{ borderRadius: '0px' }}>
             <Card.Body>
-              <Card.Subtitle className="mb-2 text-muted">
+              <Card.Subtitle className="mb-2 text-muted text-uppercase theme-font">
                 {' '}
                 Education{' '}
               </Card.Subtitle>
-              <Card.Title>
+              <Card.Title style={{ fontWeight: '700', fontSize: '1.1rem' }}>
                 Creating holistic modules in Panipat Haryana
               </Card.Title>
-              <Card.Text>Vaibhav Kumar</Card.Text>
-              <Card.Text>01/01/2019</Card.Text>
+              <Card.Text className="fz-16">
+                Vaibhav Kumar, 18 Feb 2019
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
