@@ -3,27 +3,31 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+
 const OngoingProject = () => (
   <div className="mt-5">
     <Jumbotron fluid>
-      <Container src="holder.js/1200*500">
+      <Container>
         <Row>
           <Col xs={0} md={3} />
           <Col xs={0} md={3} />
           <Col>
             <Card>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Card Subtitle
+                <Card.Subtitle className="mb-2 text-muted title-header-initial fz-20">
+                  ongoing project
                 </Card.Subtitle>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <Card.Title className="h5 font-weight-bold lh-15">
+                  Kasturba Gandhi Balika Vidyalya
+                </Card.Title>
+                <Card.Text className="pt-3">
+                  We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
+                  Panipat and Mewat in Haryana to create thriving communities
+                  within schools.
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                <Button variant="outline-danger">Know More</Button>
               </Card.Body>
             </Card>
           </Col>

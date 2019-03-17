@@ -1,10 +1,9 @@
 @import '~slick-carousel/slick/slick.css';
 @import '~slick-carousel/slick/slick-theme.css';
-html {
-  font-size: 100%;
-}
+
 * {
   font-family: 'Muli', sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -24,11 +23,12 @@ button:disabled {
 }
 
 .title-header {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 800;
 }
 
 .title-header-initial {
+  font-size: 35px;
   font-weight: 200;
 }
 
@@ -40,4 +40,22 @@ button:disabled {
   border-radius: 10px;
   margin-right: 1.5%;
   margin-left: 1.5%;
+}
+
+.carousel-caption {
+  bottom: unset !important;
+  top: 50%;
+  transform: translateY(-25%);
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.lh-15 {
+  line-height: 15px;
 }

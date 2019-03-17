@@ -6,7 +6,12 @@ import ThirdSlide from '../../Images/ThirdSlide.jpg'
 
 const BannerCarousal = props => (
   <div>
-    <Carousel fade={true} controls={false} slide={true} wrap={true}>
+    <Carousel
+      fade={true}
+      controls={false}
+      slide={true}
+      wrap={true}
+      interval={1500}>
       <Carousel.Item>
         <Carousel.Caption>
           <h3> Awake, Arise and Educate.</h3>
@@ -15,7 +20,7 @@ const BannerCarousal = props => (
         </Carousel.Caption>
         <img
           className="d-block w-100"
-          src="holder.js/100px514?theme=sky&text=null"
+          src="holder.js/100px514?theme=sky&text=."
           alt="First slide"
         />
       </Carousel.Item>
@@ -27,7 +32,7 @@ const BannerCarousal = props => (
         </Carousel.Caption>
         <img
           className="d-block w-100"
-          src="holder.js/100px514?theme=vine"
+          src="holder.js/100px514?theme=vine&text=."
           alt="Third slide"
         />
       </Carousel.Item>
@@ -39,7 +44,7 @@ const BannerCarousal = props => (
         </Carousel.Caption>
         <img
           className="d-block w-100"
-          src="holder.js/100px514?700?theme=industrial"
+          src="holder.js/100px514?theme=industrial&text=."
           alt="Third slide"
         />
       </Carousel.Item>
@@ -51,7 +56,7 @@ const BannerCarousal = props => (
         </Carousel.Caption>
         <img
           className="d-block w-100"
-          src="holder.js/100px514?700?theme=social"
+          src="holder.js/100px514?theme=social&text=."
           alt="Third slide"
         />
       </Carousel.Item>
