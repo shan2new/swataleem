@@ -43,13 +43,21 @@ const Testimonials = props => {
             <Media>
               <Media.Body>
                 <Row
-                  className="pb-2 pt-2"
-                  style={{ borderBottom: '1px solid #f8f9fa' }}>
+                  className="pb-2 pt-4"
+                  style={{ borderBottom: '2px solid #dee2e6' }}>
                   <Col md={2}>
                     <img src="holder.js/160x120" alt="Generic placeholder" />
                   </Col>
                   <Col md={2} style={{ fontSize: '20px', paddingRight: '0px' }}>
                     {key.name} <br /> {key.company}
+                    <div
+                      style={{
+                        width: '40px',
+                        height: '0px',
+                        border: '1.5px solid #ec3766',
+                        marginTop: '10px'
+                      }}
+                    />
                   </Col>
                   <Col>
                     <p>{key.description}</p>
