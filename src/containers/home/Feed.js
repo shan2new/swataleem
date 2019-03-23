@@ -3,13 +3,14 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
 const Feed = () => {
   const [posts] = useState([
     {
       id: 1,
       area: 'Education',
-      title: 'Creating holistic modules in Panipat Haryana',
+      title: 'Establishment of Janmanch in KGBV Jalmana, Panipat',
       author: 'Vaibhav Kumar',
       date: '18 Feb 2019',
       picUrl: 'holder.js/200x200'
@@ -17,7 +18,7 @@ const Feed = () => {
     {
       id: 2,
       area: 'Education',
-      title: 'Creating holistic modules in Panipat Haryana',
+      title: 'First Science Exhibition at KGBV Jalmana, Panipat',
       author: 'Vaibhav Kumar',
       date: '18 Feb 2019',
       picUrl: 'holder.js/200x200'
@@ -34,9 +35,9 @@ const Feed = () => {
 
   let displayPosts = () => {
     var display = []
-    posts.map(() => {
+    posts.map(post => {
       display.push(
-        <Col xs={12} md={4}>
+        <Col xs={12} md={4} className="mb-20px">
           <Card.Img
             variant="top"
             src="holder.js/100px300?auto=yes"
@@ -49,7 +50,7 @@ const Feed = () => {
                 Education{' '}
               </Card.Subtitle>
               <Card.Title style={{ fontWeight: '700', fontSize: '1.1rem' }}>
-                Creating holistic modules in Panipat Haryana
+                {post.title}
               </Card.Title>
               <Card.Text className="fz-16">
                 Vaibhav Kumar, 18 Feb 2019
@@ -74,6 +75,13 @@ const Feed = () => {
           </Col>
         </Row>
         <Row>{displayPosts()}</Row>
+        <Row className="pb-2 pt-2 mt-2">
+          <Col xs={12}>
+            <Button variant="outline-danger" className="left-centre-aligner">
+              Read All
+            </Button>
+          </Col>
+        </Row>
       </Container>
     </div>
   )

@@ -3,6 +3,7 @@ import Media from 'react-bootstrap/Media'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 
 const Testimonials = props => {
   const [testimonials, setTestimonials] = useState([
@@ -10,24 +11,24 @@ const Testimonials = props => {
       id: 1,
       name: 'Ayushi Chaurasia',
       company: 'Bain Capital',
-      author:
-        '      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at,tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.',
+      description:
+        'Anaya was a student when he started his Facebook page Photography. His declining interest in his curriculum led him to follow his passion. The idea of capturing every moment was always at the back of his mind, and he finally quit his college to follow his instincts.',
       picUrl: 'holder.js/200x200'
     },
     {
       id: 2,
       name: 'Ayushi Chaurasia',
       company: 'Bain Capital',
-      author:
-        '      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at,tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.',
+      description:
+        'Anaya was a student when he started his Facebook page Photography. His declining interest in his curriculum led him to follow his passion. The idea of capturing every moment was always at the back of his mind, and he finally quit his college to follow his instincts.',
       picUrl: 'holder.js/200x200'
     },
     {
       id: 3,
       name: 'Ayushi Chaurasia',
       company: 'Bain Capital',
-      author:
-        '      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at,tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.',
+      description:
+        'Anaya was a student when he started his Facebook page Photography. His declining interest in his curriculum led him to follow his passion. The idea of capturing every moment was always at the back of his mind, and he finally quit his college to follow his instincts.',
       picUrl: 'holder.js/200x200'
     }
   ])
@@ -37,25 +38,23 @@ const Testimonials = props => {
 
     testimonials.map((key, index) => {
       theTestimonials.push(
-        <Row>
+        <Row key={key.id}>
           <Col>
             <Media>
-              <img
-                width={64}
-                height={64}
-                className="mr-3"
-                src="holder.js/64x64"
-                alt="Generic placeholder"
-              />
               <Media.Body>
-                <h5>Media Heading</h5>
-                <p>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin commodo. Cras purus odio,
-                  vestibulum in vulputate at, tempus viverra turpis. Fusce
-                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                  congue felis in faucibus.
-                </p>
+                <Row
+                  className="pb-2 pt-2"
+                  style={{ borderBottom: '1px solid #f8f9fa' }}>
+                  <Col md={2}>
+                    <img src="holder.js/160x120" alt="Generic placeholder" />
+                  </Col>
+                  <Col md={2} style={{ fontSize: '20px', paddingRight: '0px' }}>
+                    {key.name} <br /> {key.company}
+                  </Col>
+                  <Col>
+                    <p>{key.description}</p>
+                  </Col>
+                </Row>
               </Media.Body>
             </Media>
           </Col>
@@ -77,6 +76,13 @@ const Testimonials = props => {
           </Col>
         </Row>
         {displayTestimonials()}
+        <Row className="pb-2 pt-2 mt-2">
+          <Col xs={12}>
+            <Button variant="outline-danger" className="left-centre-aligner">
+              Read All
+            </Button>
+          </Col>
+        </Row>
         <Row style={{ marginBottom: '40px' }} />
       </Container>
     </div>

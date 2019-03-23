@@ -52,6 +52,12 @@ button:disabled {
   .carousel-caption {
     transform: translateY(-50%);
   }
+  .adjust-line-height {
+    line-height: 35px !important;
+  }
+  .mb-20px {
+    margin-bottom: 20px;
+  }
 }
 
 ul {
@@ -62,8 +68,8 @@ ul {
   font-size: 20px;
 }
 
-.lh-15 {
-  line-height: 20px;
+.adjust-line-height {
+  line-height: 15px;
 }
 
 .btn-outline-danger {
@@ -81,6 +87,40 @@ ul {
 .theme-font {
   color: #ec3766 !important;
 }
+
+.theme-background {
+  background: #ec3766 !important;
+}
+
+.remove-border {
+  border: 0px;
+  border-radius: 0px !important;
+}
+
+.remove-padding {
+  padding: 0px !important;
+}
+
 .fz-16 {
   font-size: 16px;
+}
+
+.fz-point-nine {
+  font-size: 0.9rem;
+}
+
+.subscription-input {
+  border-bottom: 2px solid #ec3766;
+}
+
+.bottom-nav input:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #ec3766;
+}
+
+.left-centre-aligner {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }

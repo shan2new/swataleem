@@ -57,7 +57,7 @@ const EventPhotos = () => {
   }
 
   return (
-    <div>
+    <div class="pb-5">
       <Container>
         <Row>
           <Col>

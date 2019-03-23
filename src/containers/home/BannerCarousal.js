@@ -12,7 +12,9 @@ const BannerCarousal = props => (
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
-          <h2 class="font-weight-bold lh-15">Smash traditions, liberate. </h2>
+          <h2 class="font-weight-bold adjust-line-height">
+            Smash traditions, liberate.{' '}
+          </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
         <img
@@ -24,7 +26,9 @@ const BannerCarousal = props => (
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
-          <h2 class="font-weight-bold lh-15">Smash traditions, liberate. </h2>
+          <h2 class="font-weight-bold adjust-line-height">
+            Smash traditions, liberate.{' '}
+          </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
         <img
@@ -36,7 +40,9 @@ const BannerCarousal = props => (
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
-          <h2 class="font-weight-bold lh-15">Smash traditions, liberate. </h2>
+          <h2 class="font-weight-bold adjust-line-height">
+            Smash traditions, liberate.{' '}
+          </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
         <img
@@ -48,7 +54,9 @@ const BannerCarousal = props => (
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
-          <h2 class="font-weight-bold lh-15">Smash traditions, liberate. </h2>
+          <h2 class="font-weight-bold adjust-line-height">
+            Smash traditions, liberate.{' '}
+          </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
         <img
