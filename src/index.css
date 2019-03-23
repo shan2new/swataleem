@@ -78,7 +78,8 @@ ul {
   border-radius: 0px;
 }
 
-.btn-outline-danger:hover {
+.btn-outline-danger:hover,
+.btn-primary:hover {
   color: #fff !important;
   background-color: #ec3766;
   border-color: #ec3766;
@@ -117,6 +118,14 @@ ul {
   outline: none;
   box-shadow: none;
   border-bottom: 2px solid #ec3766;
+}
+
+.btn-outline-danger:active,
+.btn-primary:active,
+.btn-outline-danger:focus,
+.btn-primary:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .left-centre-aligner {
