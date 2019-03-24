@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import storyImage1 from '../../Images/Display/storyImage1.jpg'
+import storyImage3 from '../../Images/Display/storyImage3.jpg'
 
 const Feed = () => {
   const [posts] = useState([
@@ -13,23 +15,23 @@ const Feed = () => {
       title: 'Establishment of Janmanch in KGBV Jalmana, Panipat',
       author: 'Vaibhav Kumar',
       date: '18 Feb 2019',
-      picUrl: 'holder.js/200x200'
+      picUrl: storyImage1
     },
     {
       id: 2,
-      area: 'Education',
+      area: 'Child Psychology',
       title: 'First Science Exhibition at KGBV Jalmana, Panipat',
       author: 'Vaibhav Kumar',
       date: '18 Feb 2019',
-      picUrl: 'holder.js/200x200'
+      picUrl: storyImage1
     },
     {
       id: 3,
-      area: 'Education',
+      area: 'Policy',
       title: 'Creating holistic modules in Panipat Haryana',
       author: 'Vaibhav Kumar',
       date: '18 Feb 2019',
-      picUrl: 'holder.js/200x200'
+      picUrl: storyImage3
     }
   ])
 
@@ -37,17 +39,16 @@ const Feed = () => {
     var display = []
     posts.map(post => {
       display.push(
-        <Col xs={12} md={4} className="mb-20px">
+        <Col xs={12} md={4} className="mb-20px pl-1 pr-1">
           <Card.Img
             variant="top"
-            src="holder.js/100px300?auto=yes"
-            style={{ borderRadius: 'none' }}
+            src={post.picUrl}
+            style={{ borderRadius: 'none', height: '300px' }}
           />
           <Card style={{ borderRadius: '0px' }}>
             <Card.Body>
               <Card.Subtitle className="mb-2 text-muted text-uppercase theme-font">
-                {' '}
-                Education{' '}
+                Education
               </Card.Subtitle>
               <Card.Title style={{ fontWeight: '700', fontSize: '1.1rem' }}>
                 {post.title}
@@ -67,7 +68,7 @@ const Feed = () => {
   return (
     <div className="mt-5">
       <Container>
-        <Row>
+        <Row className="mb-3">
           <Col>
             <div class="title-header">
               <span class="title-header-initial">our</span> stories of change

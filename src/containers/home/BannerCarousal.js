@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import BannerImage from '../../Images/Display/LandingPageBanner.jpg'
 
 const BannerCarousal = props => (
   <div>
@@ -13,57 +14,41 @@ const BannerCarousal = props => (
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
           <h2 class="font-weight-bold adjust-line-height">
-            Smash traditions, liberate.{' '}
+            Smash traditions, liberate.
           </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
-        <img
-          className="d-block w-100"
-          src="holder.js/100px514?theme=sky&text=.&align=left"
-          alt="First slide"
-        />
+        <img className="d-block w-100" src={BannerImage} alt="First slide" />
       </Carousel.Item>
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
           <h2 class="font-weight-bold adjust-line-height">
-            Smash traditions, liberate.{' '}
+            Smash traditions, liberate.
           </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
-        <img
-          className="d-block w-100"
-          src="holder.js/100px514?theme=vine&text=.&align=left"
-          alt="Third slide"
-        />
+        <img className="d-block w-100" src={BannerImage} alt="Third slide" />
       </Carousel.Item>
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
           <h2 class="font-weight-bold adjust-line-height">
-            Smash traditions, liberate.{' '}
+            Smash traditions, liberate.
           </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
-        <img
-          className="d-block w-100"
-          src="holder.js/100px514?theme=industrial&text=.&align=left"
-          alt="Third slide"
-        />
+        <img className="d-block w-100" src={BannerImage} alt="Third slide" />
       </Carousel.Item>
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
           <h2 class="font-weight-bold adjust-line-height">
-            Smash traditions, liberate.{' '}
+            Smash traditions, liberate.
           </h2>
           <p class="pt-3">Savitri Bai Phule</p>
         </Carousel.Caption>
-        <img
-          className="d-block w-100"
-          src="holder.js/100px514?theme=social&text=.&align=left"
-          alt="Third slide"
-        />
+        <img className="d-block w-100" src={BannerImage} alt="Third slide" />
       </Carousel.Item>
     </Carousel>
   </div>

@@ -5,10 +5,16 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import OngoingProjectImage from '../../Images/Display/OngoingProject.jpg'
 
 const OngoingProject = () => (
   <div className="mt-5">
-    <Jumbotron fluid>
+    <Jumbotron
+      fluid
+      style={{
+        backgroundImage: `url(${OngoingProjectImage})`,
+        backgroundSize: '100% 577px'
+      }}>
       <Container>
         <Row>
           <Col xs={0} md={3} />

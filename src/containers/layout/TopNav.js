@@ -1,8 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-
-import ValuesImages from '../../Images/icons/Basics/ConstitutionalValues.svg'
+import Logo from '../../Images/Logo.jpg'
 
 const TopNav = () => (
   <Navbar
@@ -14,7 +13,7 @@ const TopNav = () => (
     }}>
     <Navbar.Brand href="/home">
       <img
-        src={ValuesImages}
+        src={Logo}
         width="60"
         height="60"
         className="d-inline-block align-top"
