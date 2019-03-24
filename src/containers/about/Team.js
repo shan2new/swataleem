@@ -16,7 +16,7 @@ const Team = () => (
       </Row>
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -24,7 +24,7 @@ const Team = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -32,7 +32,7 @@ const Team = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>

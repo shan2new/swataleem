@@ -16,8 +16,8 @@ const BottomNav = () => (
             <span class="title-header-initial">Let's</span>{' '}
             <span class="title-header">stay connected</span>
             <br />
-            Stay connected with our projects. Subscribe to our monthly
-            newsletter to stay in touch.
+            Be a part of SwaTaleem’s journey. Subscribe to our quarterly
+            newsletter to stay updated of the work.
           </p>
 
           <Form>

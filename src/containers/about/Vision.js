@@ -3,18 +3,31 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const Vision = () => (
   <Jumbotron>
     <Container>
       <Row>
-        <p>
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
+        <Col style={{ textAlign: 'center' }}>
+          <div
+            class="font-weight-light"
+            style={{
+              fontSize: '2rem',
+              display: 'inline-block',
+              lineHeight: '40px'
+            }}>
+            Our mission is to facilitate the creation of sustainable, equitable,
+            learner-centric systems.
+          </div>
+        </Col>
       </Row>
-      <Row>
-        <h1>Hello, world!</h1>
+      <Row className="mt-2">
+        <Col style={{ textAlign: 'center' }}>
+          <div style={{ display: 'inline-block' }} class="font-weight-bold">
+            Our Mission
+          </div>
+        </Col>
       </Row>
     </Container>
   </Jumbotron>

@@ -5,18 +5,18 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 
 const Mentor = () => (
-  <div className="mt-5">
+  <div className="mt-5 mb-5">
     <Container>
       <Row>
         <Col>
           <div class="title-header">
-            <span class="title-header-initial">our</span> team
+            <span class="title-header-initial">our</span> mentors
           </div>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -24,7 +24,7 @@ const Mentor = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -32,7 +32,7 @@ const Mentor = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
