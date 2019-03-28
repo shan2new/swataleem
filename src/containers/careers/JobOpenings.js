@@ -5,19 +5,19 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-const Values = () => (
+const JobOpenings = () => (
   <div className="mt-5">
     <Container>
       <Row>
         <Col>
           <div class="title-header">
-            <span class="title-header-initial">our</span> stories of change
+            <span class="title-header-initial">we are</span> looking for
           </div>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -25,7 +25,7 @@ const Values = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -33,7 +33,7 @@ const Values = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -45,4 +45,4 @@ const Values = () => (
   </div>
 )
 
-export default Values
+export default JobOpenings

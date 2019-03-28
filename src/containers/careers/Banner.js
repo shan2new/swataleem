@@ -1,9 +1,27 @@
 import React from 'react'
-import Image from 'react-bootstrap/Image'
+import Carousel from 'react-bootstrap/Carousel'
+import JoinBanner from '../../Images/Display/JoinBanner.jpg'
 
 const Banner = () => (
   <div>
-    <Image src="holder.js/100px250?auto=yes&&theme=sky" fluid />
+    <Carousel
+      fade={true}
+      controls={false}
+      slide={true}
+      wrap={true}
+      interval={1500}
+      indicators={false}>
+      <Carousel.Item>
+        <Carousel.Caption>
+          <h2 class="font-weight-light"> Together</h2>
+          <h2 class="font-weight-bold adjust-line-height">
+            we can do great things.
+          </h2>
+          <p class="pt-3">Mother Teresa</p>
+        </Carousel.Caption>
+        <img className="d-block w-100" src={JoinBanner} alt="First slide" />
+      </Carousel.Item>
+    </Carousel>
   </div>
 )
 

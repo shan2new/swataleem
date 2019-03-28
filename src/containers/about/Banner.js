@@ -9,7 +9,8 @@ const Banner = () => (
       controls={false}
       slide={true}
       wrap={true}
-      interval={1500}>
+      interval={1500}
+      indicators={false}>
       <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Every child has access to</h2>

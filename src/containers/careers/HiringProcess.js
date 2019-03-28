@@ -3,20 +3,21 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
-const Team = () => (
+const HiringProcess = () => (
   <div className="mt-5">
     <Container>
       <Row>
         <Col>
           <div class="title-header">
-            <span class="title-header-initial">our</span> team
+            <span class="title-header-initial">how</span> we hire
           </div>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -24,7 +25,7 @@ const Team = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -32,7 +33,7 @@ const Team = () => (
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -44,4 +45,4 @@ const Team = () => (
   </div>
 )
 
-export default Team
+export default HiringProcess
