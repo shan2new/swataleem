@@ -18,7 +18,7 @@ const Values = () => (
           </div>
         </Col>
       </Row>
-      <Row className="align-item justify-content-center text-center">
+      <Row className="align-items-baseline justify-content-center text-center">
         <Col>
           <CardDeck>
             <Card style={{ background: '#f1f1f2' }} className="remove-border">

@@ -4,6 +4,7 @@
 * {
   font-family: 'Muli', sans-serif;
   font-size: 20px;
+  color: #302e2f;
 }
 
 body {
@@ -132,4 +133,18 @@ ul {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-title {
+  margin-bottom: 0.3rem;
+}
+
+.hr-underliner {
+  line-height: 0;
+  max-width: 15%;
+  border-bottom: 5px solid #ec3766;
 }
