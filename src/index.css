@@ -148,3 +148,16 @@ ul {
   max-width: 15%;
   border-bottom: 5px solid #ec3766;
 }
+
+.card-body {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 15px !important;
+}
+
+.card-img-top {
+  border: 0px;
+  border-radius: 0px !important;
+  outline: none;
+  box-shadow: none;
+}
