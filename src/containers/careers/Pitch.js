@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 
-const Team = () => (
+const Pitch = () => (
   <div className="mt-5">
     <Container>
       <Row>
@@ -16,24 +16,24 @@ const Team = () => (
       </Row>
       <Row>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px180" />
+          <Card className="remove-border">
+            <Card.Img variant="top" src="holder.js/30px110" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px180" />
+          <Card className="remove-border">
+            <Card.Img variant="top" src="holder.js/30px110  " />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px180" />
+          <Card className="remove-border">
+            <Card.Img variant="top" src="holder.js/30px110  " />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
             </Card.Body>
@@ -44,4 +44,4 @@ const Team = () => (
   </div>
 )
 
-export default Team
+export default Pitch
