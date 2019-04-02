@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 // import ChallengeYourself from '../../Images/icons/Basics/ChallengeYourself.svg'
 // import AutonomyAndGrowth from '../../Images/icons/Basics/AutonomyAndGrowth.svg'
-// import LearnAndDo from '../../Images/icons/Basics/LearnAndDo.svg'
+import LearnAndDo from '../../Images/icons/Basics/LearnAndDo.svg'
 
 import ConstitutionalValues from '../../Images/icons/Basics/ConstitutionalValues.svg'
 import Excellence from '../../Images/icons/Basics/Excellence.svg'
