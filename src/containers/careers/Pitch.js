@@ -3,9 +3,13 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import ChallengeYourself from '../../Images/icons/Basics/ChallengeYourself.svg'
-import AutonomyAndGrowth from '../../Images/icons/Basics/AutonomyAndGrowth.svg'
-import LearnAndDo from '../../Images/icons/Basics/LearnAndDo.svg'
+// import ChallengeYourself from '../../Images/icons/Basics/ChallengeYourself.svg'
+// import AutonomyAndGrowth from '../../Images/icons/Basics/AutonomyAndGrowth.svg'
+// import LearnAndDo from '../../Images/icons/Basics/LearnAndDo.svg'
+
+import ConstitutionalValues from '../../Images/icons/Basics/ConstitutionalValues.svg'
+import Excellence from '../../Images/icons/Basics/Excellence.svg'
+import Collaboration from '../../Images/icons/Basics/Collaboration.svg'
 
 const Pitch = () => (
   <div className="mt-5">
@@ -22,7 +26,7 @@ const Pitch = () => (
           <Card className="remove-border">
             <Card.Img
               variant="top"
-              src={LearnAndDo}
+              src={ConstitutionalValues}
               style={{ width: '35%', height: '35%' }}
             />
             <Card.Body>
@@ -38,7 +42,7 @@ const Pitch = () => (
           <Card className="remove-border">
             <Card.Img
               variant="top"
-              src={ChallengeYourself}
+              src={Excellence}
               style={{ width: '35%', height: '35%' }}
             />
             <Card.Body>
@@ -53,7 +57,7 @@ const Pitch = () => (
           <Card className="remove-border">
             <Card.Img
               variant="top"
-              src={AutonomyAndGrowth}
+              src={Collaboration}
               style={{ width: '35%', height: '35%' }}
             />
             <Card.Body>
