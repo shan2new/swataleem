@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import LearnAndDo from '../../Images/icons/Basics/LearnAndDo.svg'
 import ChallengeYourself from '../../Images/icons/Basics/ChallengeYourself.svg'
 import AutonomyAndGrowth from '../../Images/icons/Basics/AutonomyAndGrowth.svg'
+import LearnAndDo from '../../Images/icons/Basics/LearnAndDo.svg'
 
 const Pitch = () => (
   <div className="mt-5">
