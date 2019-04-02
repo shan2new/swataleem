@@ -17,7 +17,9 @@ const Banner = () => (
           <h2 class="font-weight-bold adjust-line-height">
             we can do great things.
           </h2>
-          <p class="pt-3">Mother Teresa</p>
+          <p class="pt-3" style={{ color: 'inherit' }}>
+            Mother Teresa
+          </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={JoinBanner} alt="First slide" />
       </Carousel.Item>

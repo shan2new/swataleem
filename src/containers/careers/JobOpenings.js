@@ -17,26 +17,56 @@ const JobOpenings = () => (
       </Row>
       <Row>
         <Col>
-          <Card className="remove-border">
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+          <Card class="remove-border" style={{ background: '#f1f1f2' }}>
+            <Card.Body className="padding-25">
+              <Card.Title className="h5 font-weight-bold lh-15">
+                Field Researcher
+              </Card.Title>
+              <hr class="hr-underliner" align="left" />
+              <Card.Text className="pt-3">
+                We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
+                Panipat and Mewat in Haryana to create thriving communities
+                within schools.
+              </Card.Text>
+              <Button variant="outline-danger" style={{ width: '100%' }}>
+                Know More
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card className="remove-border">
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+          <Card class="remove-border" style={{ background: '#f1f1f2' }}>
+            <Card.Body className="padding-25">
+              <Card.Title className="h5 font-weight-bold lh-15">
+                Primary School Teacher
+              </Card.Title>
+              <hr class="hr-underliner" align="left" />
+              <Card.Text className="pt-3">
+                We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
+                Panipat and Mewat in Haryana to create thriving communities
+                within schools.
+              </Card.Text>
+              <Button variant="outline-danger" style={{ width: '100%' }}>
+                Know More
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card className="remove-border">
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+          <Card class="remove-border" style={{ background: '#f1f1f2' }}>
+            <Card.Body className="padding-25">
+              <Card.Title className="h5 font-weight-bold lh-15">
+                Accountant
+              </Card.Title>
+              <hr class="hr-underliner" align="left" />
+              <Card.Text className="pt-3">
+                We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
+                Panipat and Mewat in Haryana to create thriving communities
+                within schools.
+              </Card.Text>
+              <Button variant="outline-danger" style={{ width: '100%' }}>
+                Know More
+              </Button>
             </Card.Body>
           </Card>
         </Col>

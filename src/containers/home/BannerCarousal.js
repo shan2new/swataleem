@@ -16,7 +16,9 @@ const BannerCarousal = props => (
           <h2 class="font-weight-bold adjust-line-height">
             Smash traditions, liberate.
           </h2>
-          <p class="pt-3">Savitri Bai Phule</p>
+          <p class="pt-3" style={{ color: '#ffffff' }}>
+            Savitri Bai Phule
+          </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={BannerImage} alt="First slide" />
       </Carousel.Item>
@@ -26,7 +28,9 @@ const BannerCarousal = props => (
           <h2 class="font-weight-bold adjust-line-height">
             Smash traditions, liberate.
           </h2>
-          <p class="pt-3">Savitri Bai Phule</p>
+          <p class="pt-3" style={{ color: '#ffffff' }}>
+            Savitri Bai Phule
+          </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={BannerImage} alt="Third slide" />
       </Carousel.Item>
@@ -36,7 +40,9 @@ const BannerCarousal = props => (
           <h2 class="font-weight-bold adjust-line-height">
             Smash traditions, liberate.
           </h2>
-          <p class="pt-3">Savitri Bai Phule</p>
+          <p class="pt-3" style={{ color: '#ffffff' }}>
+            Savitri Bai Phule
+          </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={BannerImage} alt="Third slide" />
       </Carousel.Item>
@@ -46,7 +52,9 @@ const BannerCarousal = props => (
           <h2 class="font-weight-bold adjust-line-height">
             Smash traditions, liberate.
           </h2>
-          <p class="pt-3">Savitri Bai Phule</p>
+          <p class="pt-3" style={{ color: '#ffffff' }}>
+            Savitri Bai Phule
+          </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={BannerImage} alt="Third slide" />
       </Carousel.Item>

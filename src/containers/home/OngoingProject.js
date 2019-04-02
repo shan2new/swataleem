@@ -20,7 +20,7 @@ const OngoingProject = () => (
           <Col xs={0} md={3} />
           <Col xs={0} md={3} />
           <Col>
-            <Card>
+            <Card className="remove-border">
               <Card.Body className="padding-25">
                 <Card.Subtitle className="mb-2 text-muted title-header-initial fz-20">
                   ongoing project

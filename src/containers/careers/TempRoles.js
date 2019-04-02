@@ -20,7 +20,7 @@ const OngoingProject = () => (
           <Col xs={0} md={3} />
           <Col xs={0} md={3} />
           <Col>
-            <Card>
+            <Card className="remove-border">
               <Card.Body className="padding-25">
                 <Card.Subtitle className="mb-2 text-muted title-header-initial fz-20">
                   Get Involved
@@ -29,10 +29,9 @@ const OngoingProject = () => (
                   Volunteers / Internships
                 </Card.Title>
                 <Card.Text className="pt-3">
-                  Step into our classrooms and share your knowledge, experience
-                  and skills with children by volunteering to teach and assist
-                  our Team. Help us plan & execute our events across the country
-                  to further strengthen the movement.
+                  Come become a partner in SwaTaleem’s Journey and wish
+                  contribute through your time and skills by
+                  volunteering/interning with us.
                 </Card.Text>
                 <Button variant="outline-danger">Apply Now</Button>
               </Card.Body>

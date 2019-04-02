@@ -45,7 +45,7 @@ const Feed = () => {
             src={post.picUrl}
             style={{ borderRadius: 'none', height: '300px' }}
           />
-          <Card style={{ borderRadius: '0px' }}>
+          <Card style={{ borderRadius: '0px' }} className="padding-25">
             <Card.Body>
               <Card.Subtitle className="mb-2 text-muted text-uppercase theme-font">
                 Education

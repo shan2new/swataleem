@@ -170,3 +170,7 @@ ul {
 .padding-25 {
   padding: 25px !important;
 }
+
+.current-link {
+  color: red !important;
+}
