@@ -16,7 +16,7 @@ const JobOpenings = () => (
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col xs={12} sm={4} className="pb-2">
           <Card class="remove-border" style={{ background: '#f1f1f2' }}>
             <Card.Body className="padding-25">
               <Card.Title className="h5 font-weight-bold lh-15">
@@ -34,7 +34,7 @@ const JobOpenings = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4} className="pb-2">
           <Card class="remove-border" style={{ background: '#f1f1f2' }}>
             <Card.Body className="padding-25">
               <Card.Title className="h5 font-weight-bold lh-15">
@@ -52,7 +52,7 @@ const JobOpenings = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4} className="pb-2">
           <Card class="remove-border" style={{ background: '#f1f1f2' }}>
             <Card.Body className="padding-25">
               <Card.Title className="h5 font-weight-bold lh-15">

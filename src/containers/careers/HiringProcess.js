@@ -16,7 +16,7 @@ const HiringProcess = () => (
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col xs={12} sm={4}>
           <Card className="remove-border">
             <Card.Body>
               <Card.Title
@@ -33,7 +33,7 @@ const HiringProcess = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4}>
           <Card className="remove-border">
             <Card.Body>
               <Card.Title
@@ -51,7 +51,7 @@ const HiringProcess = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4}>
           <Card className="remove-border">
             <Card.Body>
               <Card.Title

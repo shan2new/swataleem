@@ -22,7 +22,7 @@ const Pitch = props => (
         <Col sm={12} md={6}>
           <Image src="holder.js/98px380?auto=yes&text=infographic&size=20&font=Muli" />
         </Col>
-        <Col>
+        <Col sm={12} md={6} className="pt-2">
           <p>
             It’s a harsh reality that quality education is still a privilege for
             a major chunk of our society. The chance of getting it reduces

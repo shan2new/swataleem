@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 const JobQuery = () => (
   <Container
     style={{ paddingLeft: '300px', paddingRight: '300px' }}
-    className="mt-5">
+    className="mt-5 noPaddingXMobile">
     <Row className="mt-2">
       <Col style={{ textAlign: 'center' }}>
         <div

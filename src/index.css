@@ -174,3 +174,10 @@ ul {
 .current-link {
   color: red !important;
 }
+
+@media (max-width: 440px) {
+  .noPaddingXMobile {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}

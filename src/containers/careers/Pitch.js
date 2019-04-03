@@ -11,14 +11,14 @@ const Pitch = () => (
   <div className="mt-5">
     <Container>
       <Row>
-        <Col>
+        <Col xs={12}>
           <div class="title-header">
             <span class="title-header-initial">let's</span> work together
           </div>
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col xs={12} sm={4}>
           <Card className="remove-border">
             <Card.Img
               variant="top"
@@ -34,7 +34,7 @@ const Pitch = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4}>
           <Card className="remove-border">
             <Card.Img
               variant="top"
@@ -49,7 +49,7 @@ const Pitch = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4}>
           <Card className="remove-border">
             <Card.Img
               variant="top"
