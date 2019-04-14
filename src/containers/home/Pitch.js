@@ -29,7 +29,7 @@ const Pitch = props => (
             manifolds with each layer of existing oppressive structure be it
             through gender, caste or economy.
           </p>
-          <ul>
+          <ul class="d-none d-md-block">
             <li>
               Drop out rate at secondary level - 17.06% for SCs - 19.36%, for
               STs - 24.68%
