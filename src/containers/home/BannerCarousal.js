@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import BannerImage from '../../Images/Display/LandingPageBanner.jpg'
 
 const BannerCarousal = props => (
-  <div>
+  <div className="top-banner">
     <Carousel
       fade={true}
       controls={false}
@@ -22,7 +22,7 @@ const BannerCarousal = props => (
         </Carousel.Caption>
         <img className="d-block w-100" src={BannerImage} alt="First slide" />
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Carousel.Caption>
           <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
           <h2 class="font-weight-bold adjust-line-height">
@@ -57,7 +57,7 @@ const BannerCarousal = props => (
           </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={BannerImage} alt="Third slide" />
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   </div>
 )

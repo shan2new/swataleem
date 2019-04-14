@@ -42,15 +42,15 @@ const BottomNav = () => (
             </Form.Row>
           </Form>
         </Col>
-        <Col className="pt-5 theme-font">
+        <Col className="pt-5">
           <Row className="pb-2">
-            <Col>Facebook</Col>
+            <Col className="theme-font">Facebook</Col>
           </Row>
           <Row className="pb-2">
-            <Col>Twitter</Col>
+            <Col className="theme-font">Twitter</Col>
           </Row>
           <Row className="pb-2">
-            <Col>Instagram</Col>
+            <Col className="theme-font">Instagram</Col>
           </Row>
         </Col>
         <Col className="pt-5">

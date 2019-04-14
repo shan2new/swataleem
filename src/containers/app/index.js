@@ -5,10 +5,12 @@ import Body from '../layout/Body'
 
 const App = () => {
   return (
-    <div>
-      <TopNav />
-      <Body />
-      <BottomNav />
+    <div id="App">
+      <TopNav pageWrapId={'page-wrap'} outerContainerId={'App'} />
+      <div id="page-wrap">
+        <Body />
+        <BottomNav />
+      </div>
     </div>
   )
 }

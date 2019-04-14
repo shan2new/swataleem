@@ -16,6 +16,16 @@ body {
   line-height: 1.5;
 }
 
+#App {
+  /* Give app full page to work with */
+  /* height: 100vh; */
+}
+
+#page-wrap {
+  /* Prevent sidebar from showing a scrollbar on page */
+  /* overflow: auto; */
+}
+
 button:disabled {
   opacity: 0.5;
 }
@@ -180,6 +190,44 @@ ul {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+
+  .top-banner img {
+    height: 282px;
+  }
+
+  .carousel-caption {
+    width: 100%;
+    left: 0;
+  }
+
+  .carousel-caption p {
+    padding-top: 0.5rem !important;
+  }
+
+  .bm-burger-button {
+    display: block !important;
+  }
+
+  .small-paragraph-fz {
+    font-size: 26px !important;
+  }
+
+  .large-paragraph-fz {
+    font-size: 22px !important;
+  }
+
+  .values-card-title {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+
+  .values-card-text {
+    font-size: 12px !important;
+  }
+
+  .alice-carousel__stage-item {
+    width: 250px !important;
+  }
 }
 
 .navbar-toggler-icon {
@@ -193,4 +241,87 @@ ul {
 
 .navbar-toggler:focus {
   outline: none;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 40px;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.bm-item:focus {
+  outline: none;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 40px;
+  top: 40px;
+  display: none;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ec3766;
+  border-radius: 2px;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #ffffff;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  width: 100%;
+  background: #ec3766;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  text-decoration: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bm-menu-wrap {
+  top: 0px;
+}
+
+.jumbotron {
+  border-radius: 0px !important;
 }

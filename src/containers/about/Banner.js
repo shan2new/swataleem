@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import AboutBanner from '../../Images/Display/AboutBanner.jpg'
 
 const Banner = () => (
-  <div>
+  <div className="top-banner">
     <Carousel
       fade={true}
       controls={false}

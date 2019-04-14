@@ -11,7 +11,7 @@ const Vision = () => (
       <Row>
         <Col style={{ textAlign: 'center' }}>
           <div
-            class="font-weight-light"
+            class="font-weight-light small-paragraph-fz"
             style={{
               fontSize: '2rem',
               display: 'inline-block',
