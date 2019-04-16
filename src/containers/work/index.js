@@ -8,9 +8,8 @@ import Mentor from './Mentor'
 const About = props => (
   <div>
     <Banner />
-    <Vision />
     <Values />
-    <Team />
+    {/* <Team /> */}
     <Mentor />
   </div>
 )

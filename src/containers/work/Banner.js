@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import AboutBanner from '../../Images/Display/AboutBanner.jpg'
+import WorkBanner from '../../Images/Display/WorkBanner.jpg'
 
 const Banner = () => (
   <div className="top-banner">
@@ -21,7 +21,7 @@ const Banner = () => (
             Our Education
           </p>
         </Carousel.Caption>
-        <img className="d-block w-100" src={AboutBanner} alt="First slide" />
+        <img className="d-block w-100" src={WorkBanner} alt="First slide" />
       </Carousel.Item>
     </Carousel>
   </div>
