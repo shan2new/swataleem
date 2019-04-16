@@ -7,6 +7,7 @@ import Image from 'react-bootstrap/Image'
 import Media from 'react-bootstrap/Media'
 import WhatWeDo from '../../Images/icons/Basics/WhatWeDo.svg'
 import HowWeWork from '../../Images/icons/Basics/HowWeWork.svg'
+import infographic from '../../Images/Display/image2.png'
 
 const Pitch = props => (
   <div className="mt-5">

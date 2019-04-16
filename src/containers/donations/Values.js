@@ -8,37 +8,19 @@ import Button from 'react-bootstrap/Button'
 const Values = () => (
   <div className="mt-5">
     <Container>
-      <Row>
-        <Col>
+      <Row className="pb-2 pt-5">
+        <Col sm={12} md={6}>
           <div class="title-header">
-            <span class="title-header-initial">our</span> stories of change
+            <span class="title-header-initial">forever</span> grateful
           </div>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-            </Card.Body>
-          </Card>
+      <Row className={'pb-5'}>
+        <Col sm={12} md={6} className="pt-2">
+          <p>
+            We are deeply grateful to our partners for supporting us in our
+            endeavour.
+          </p>
         </Col>
       </Row>
     </Container>

@@ -2,42 +2,24 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
 const Team = () => (
-  <div className="mt-5">
+  <div className="mt-5 d-none">
     <Container>
-      <Row>
-        <Col>
+      <Row className="pb-2 pt-5">
+        <Col sm={12} md={6}>
           <div class="title-header">
-            <span class="title-header-initial">our</span> team
+            <span class="title-header-initial">the</span> financials
           </div>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-            </Card.Body>
-          </Card>
+      <Row className={'pb-5'}>
+        <Col sm={12} md={6} className="pt-2">
+          <p>
+            The Annual Reports of the organization could be find below: Annual
+            Report 2018-19
+          </p>
         </Col>
       </Row>
     </Container>

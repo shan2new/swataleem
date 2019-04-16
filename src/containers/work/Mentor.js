@@ -4,9 +4,6 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import Daya from '../../Images/Display/image3.jpg'
-import Mona from '../../Images/Display/image8.jpg'
-import Ravi from '../../Images/Display/image7.jpg'
 
 const Mentor = () => (
   <div className="mt-5 mb-5">
@@ -22,7 +19,7 @@ const Mentor = () => (
         <Col>
           <CardDeck>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Daya} />
+              <Card.Img variant="top" src="holder.js/100px400" />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Ms. Daya Kori
@@ -40,7 +37,7 @@ const Mentor = () => (
               </Card.Body>
             </Card>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Mona} />
+              <Card.Img variant="top" src="holder.js/100px400" />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Prof. Mona Yadav
@@ -61,7 +58,7 @@ const Mentor = () => (
               </Card.Body>
             </Card>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Ravi} />
+              <Card.Img variant="top" src="holder.js/100px400" />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Mr. Ravi Gulati

@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import DonateBanner from '../../Images/Display/DonateBanner.jpg'
+import AboutBanner from '../../Images/Display/AboutBanner.jpg'
 
 const Banner = () => (
   <div className="top-banner">
@@ -13,15 +13,15 @@ const Banner = () => (
       indicators={false}>
       <Carousel.Item>
         <Carousel.Caption>
-          <h2 class="font-weight-light"> Together</h2>
+          <h2 class="font-weight-light"> Every child has access to</h2>
           <h2 class="font-weight-bold adjust-line-height">
-            we can do great things.
+            learner-centric quality education
           </h2>
-          <p class="pt-3" style={{ color: 'inherit' }}>
-            Mother Teresa
+          <p class="pt-3" style={{ color: '#ffffff' }}>
+            Our Education
           </p>
         </Carousel.Caption>
-        <img className="d-block w-100" src={DonateBanner} alt="First slide" />
+        <img className="d-block w-100" src={AboutBanner} alt="First slide" />
       </Carousel.Item>
     </Carousel>
   </div>

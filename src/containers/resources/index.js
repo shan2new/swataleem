@@ -3,15 +3,16 @@ import Banner from './Banner'
 import Vision from './Vision'
 import Values from './Values'
 import Team from './Team'
-import TempRoles from './TempRoles'
+import Mentor from './Mentor'
 
-const Careers = props => (
+const About = props => (
   <div>
     <Banner />
     <Vision />
     <Values />
     <Team />
+    <Mentor />
   </div>
 )
 
-export default Careers
+export default About

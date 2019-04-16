@@ -4,6 +4,8 @@ import Home from '../home'
 import About from '../about'
 import Donations from '../donations'
 import Careers from '../careers'
+import Resources from '../resources'
+import Work from '../work'
 
 const Body = () => (
   <main>
@@ -12,6 +14,8 @@ const Body = () => (
     <Route exact path="/about" component={About} />
     <Route exact path="/donations" component={Donations} />
     <Route exact path="/careers" component={Careers} />
+    <Route exact path="/resources" component={Resources} />
+    <Route exact path="/work" component={Work} />
   </main>
 )
 

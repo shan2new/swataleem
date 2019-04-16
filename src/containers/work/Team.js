@@ -4,9 +4,6 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import Ananya from '../../Images/Display/image9.jpg'
-import Vaibhav from '../../Images/Display/image10.png'
-import Arzoo from '../../Images/Display/image13.jpg'
 
 const Team = () => (
   <div className="mt-5">
@@ -22,7 +19,7 @@ const Team = () => (
         <Col>
           <CardDeck>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Ananya} />
+              <Card.Img variant="top" src="holder.js/100px400" />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Ananya Tiwari
@@ -41,7 +38,7 @@ const Team = () => (
               </Card.Body>
             </Card>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Arzoo} />
+              <Card.Img variant="top" src="holder.js/100px400" />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Arzoo Shakir
@@ -64,7 +61,7 @@ const Team = () => (
               </Card.Body>
             </Card>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Vaibhav} />
+              <Card.Img variant="top" src="holder.js/100px400" />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Vaibhav Kumar

@@ -79,7 +79,7 @@ const Testimonials = props => {
         <Row style={{ marginBottom: '15px' }}>
           <Col>
             <div class="title-header">
-              <span class="title-header-initial">people</span> are saying
+              <span class="title-header-initial">supporters</span> speak
             </div>
           </Col>
         </Row>
