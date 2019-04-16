@@ -2,11 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-import CardDeck from 'react-bootstrap/CardDeck'
-import ConstitutionalValues from '../../Images/icons/Basics/ConstitutionalValues.svg'
-import Excellence from '../../Images/icons/Basics/Excellence.svg'
-import Collaboration from '../../Images/icons/Basics/Collaboration.svg'
 
 const Values = () => (
   <div className="mt-5">

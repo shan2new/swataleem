@@ -29,9 +29,9 @@ const Vision = () => (
         <Button
           variant="primary"
           className="theme-background remove-border fz-point-nine left-centre-aligner"
-          style={{ width: '150px', height: '47px' }}
+          style={{ width: '300px', height: '60px' }}
           type="submit">
-          Subscribe
+          Donate Now
         </Button>
       </Col>
     </Row>
