@@ -91,48 +91,64 @@ const HiringProcess = () => {
         fadeOutAnimation={true}
         dotsDisabled={true}
         buttonsDisabled={true}>
-        <Card className="remove-border">
-          <Card.Body>
-            <Card.Title
-              className="font-weight-bold theme-font"
-              style={{ fontSize: '44px' }}>
-              1.
-            </Card.Title>
-            <Card.Title className="font-weight-bold">
-              Initial Screening
-            </Card.Title>
-            <Card.Text>
-              Find a role that interests you and send in your resume
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="remove-border">
-          <Card.Body>
-            <Card.Title
-              className="font-weight-bold theme-font"
-              style={{ fontSize: '44px' }}>
-              2.
-            </Card.Title>
-            <Card.Title className="font-weight-bold">
-              Selection Process
-            </Card.Title>
-            <Card.Text>
-              Depending upon the role, go through some tasks and interview
-              process
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="remove-border">
-          <Card.Body>
-            <Card.Title
-              className="font-weight-bold theme-font"
-              style={{ fontSize: '44px' }}>
-              3.
-            </Card.Title>
-            <Card.Title className="font-weight-bold">Welcome Aboard</Card.Title>
-            <Card.Text>Join the team and be a part of the movement.</Card.Text>
-          </Card.Body>
-        </Card>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card className="remove-border">
+            <Card.Body>
+              <Card.Title
+                className="font-weight-bold theme-font"
+                style={{ fontSize: '44px' }}>
+                1.
+              </Card.Title>
+              <Card.Title className="font-weight-bold">
+                Initial Screening
+              </Card.Title>
+              <Card.Text>
+                Find a role that interests you and send in your resume
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card className="remove-border">
+            <Card.Body>
+              <Card.Title
+                className="font-weight-bold theme-font"
+                style={{ fontSize: '44px' }}>
+                2.
+              </Card.Title>
+              <Card.Title className="font-weight-bold">
+                Selection Process
+              </Card.Title>
+              <Card.Text>
+                Depending upon the role, go through some tasks and interview
+                process
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card className="remove-border">
+            <Card.Body>
+              <Card.Title
+                className="font-weight-bold theme-font"
+                style={{ fontSize: '44px' }}>
+                3.
+              </Card.Title>
+              <Card.Title className="font-weight-bold">
+                Welcome Aboard
+              </Card.Title>
+              <Card.Text>
+                Join the team and be a part of the movement.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
       </AliceCarousel>
     )
   }

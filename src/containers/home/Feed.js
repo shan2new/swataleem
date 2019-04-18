@@ -166,7 +166,7 @@ const Feed = () => {
       var display = []
       posts.map(post => {
         display.push(
-          <div>
+          <div style={{ paddingLeft: '5px', paddingRight: '5px' }}>
             <Card.Img
               variant="top"
               src={post.picUrl}

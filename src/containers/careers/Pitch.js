@@ -23,46 +23,61 @@ const Pitch = () => {
         autoPlay={false}
         fadeOutAnimation={true}
         dotsDisabled={true}
-        buttonsDisabled={true}>
-        <Card className="remove-border">
-          <Card.Img
-            variant="top"
-            src={LearnAndDo}
-            style={{ width: '35%', height: '35%' }}
-          />
-          <Card.Body>
-            <Card.Title>Co-Create</Card.Title>
-            <Card.Text>
-              Come, learn and co-create beautiful things with the children, team
-              members and teachers.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="remove-border">
-          <Card.Img
-            variant="top"
-            src={ChallengeYourself}
-            style={{ width: '35%', height: '35%' }}
-          />
-          <Card.Body>
-            <Card.Title>Mutually transform</Card.Title>
-            <Card.Text>Transform self and society through your work.</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="remove-border">
-          <Card.Img
-            variant="top"
-            src={AutonomyAndGrowth}
-            style={{ width: '35%', height: '35%' }}
-          />
-          <Card.Body>
-            <Card.Title>Autonomy and Growth</Card.Title>
-            <Card.Text>
-              We are a young team so join us and play an important role in
-              shaping SwaTaleem.
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        buttonsDisabled={true}
+        infinite={false}>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card className="remove-border">
+            <Card.Img
+              variant="top"
+              src={LearnAndDo}
+              style={{ width: '35%', height: '35%' }}
+            />
+            <Card.Body>
+              <Card.Title>Co-Create</Card.Title>
+              <Card.Text>
+                Come, learn and co-create beautiful things with the children,
+                team members and teachers.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card className="remove-border">
+            <Card.Img
+              variant="top"
+              src={ChallengeYourself}
+              style={{ width: '35%', height: '35%' }}
+            />
+            <Card.Body>
+              <Card.Title>Mutually transform</Card.Title>
+              <Card.Text>
+                Transform self and society through your work.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card className="remove-border">
+            <Card.Img
+              variant="top"
+              src={AutonomyAndGrowth}
+              style={{ width: '35%', height: '35%' }}
+            />
+            <Card.Body>
+              <Card.Title>Autonomy and Growth</Card.Title>
+              <Card.Text>
+                We are a young team so join us and play an important role in
+                shaping SwaTaleem.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
       </AliceCarousel>
     )
   }

@@ -92,54 +92,66 @@ const JobOpenings = () => {
         fadeOutAnimation={true}
         dotsDisabled={true}
         buttonsDisabled={true}>
-        <Card class="remove-border" style={{ background: '#f1f1f2' }}>
-          <Card.Body className="padding-25">
-            <Card.Title className="h5 font-weight-bold lh-15">
-              Field Researcher
-            </Card.Title>
-            <hr class="hr-underliner" align="left" />
-            <Card.Text className="pt-3">
-              We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of Panipat
-              and Mewat in Haryana to create thriving communities within
-              schools.
-            </Card.Text>
-            <Button variant="outline-danger" style={{ width: '100%' }}>
-              Know More
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card class="remove-border" style={{ background: '#f1f1f2' }}>
-          <Card.Body className="padding-25">
-            <Card.Title className="h5 font-weight-bold lh-15">
-              Primary School Teacher
-            </Card.Title>
-            <hr class="hr-underliner" align="left" />
-            <Card.Text className="pt-3">
-              We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of Panipat
-              and Mewat in Haryana to create thriving communities within
-              schools.
-            </Card.Text>
-            <Button variant="outline-danger" style={{ width: '100%' }}>
-              Know More
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card class="remove-border" style={{ background: '#f1f1f2' }}>
-          <Card.Body className="padding-25">
-            <Card.Title className="h5 font-weight-bold lh-15">
-              Accountant
-            </Card.Title>
-            <hr class="hr-underliner" align="left" />
-            <Card.Text className="pt-3">
-              We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of Panipat
-              and Mewat in Haryana to create thriving communities within
-              schools.
-            </Card.Text>
-            <Button variant="outline-danger" style={{ width: '100%' }}>
-              Know More
-            </Button>
-          </Card.Body>
-        </Card>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card class="remove-border" style={{ background: '#f1f1f2' }}>
+            <Card.Body className="padding-25">
+              <Card.Title className="h5 font-weight-bold lh-15">
+                Field Researcher
+              </Card.Title>
+              <hr class="hr-underliner" align="left" />
+              <Card.Text className="pt-3">
+                We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
+                Panipat and Mewat in Haryana to create thriving communities
+                within schools.
+              </Card.Text>
+              <Button variant="outline-danger" style={{ width: '100%' }}>
+                Know More
+              </Button>
+            </Card.Body>
+          </Card>
+        </div>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card class="remove-border" style={{ background: '#f1f1f2' }}>
+            <Card.Body className="padding-25">
+              <Card.Title className="h5 font-weight-bold lh-15">
+                Primary School Teacher
+              </Card.Title>
+              <hr class="hr-underliner" align="left" />
+              <Card.Text className="pt-3">
+                We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
+                Panipat and Mewat in Haryana to create thriving communities
+                within schools.
+              </Card.Text>
+              <Button variant="outline-danger" style={{ width: '100%' }}>
+                Know More
+              </Button>
+            </Card.Body>
+          </Card>
+        </div>
+        <div
+          style={{ paddingLeft: '5px', paddingRight: '5px' }}
+          onDragStart={handleOnDragStart}>
+          <Card class="remove-border" style={{ background: '#f1f1f2' }}>
+            <Card.Body className="padding-25">
+              <Card.Title className="h5 font-weight-bold lh-15">
+                Accountant
+              </Card.Title>
+              <hr class="hr-underliner" align="left" />
+              <Card.Text className="pt-3">
+                We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
+                Panipat and Mewat in Haryana to create thriving communities
+                within schools.
+              </Card.Text>
+              <Button variant="outline-danger" style={{ width: '100%' }}>
+                Know More
+              </Button>
+            </Card.Body>
+          </Card>
+        </div>
       </AliceCarousel>
     )
   }

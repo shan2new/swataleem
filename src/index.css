@@ -236,8 +236,12 @@ ul {
     font-size: 12px !important;
   }
 
-  .alice-carousel__stage-item {
-    width: 300px !important;
+  .alice-carousel__stage-item.__active {
+    max-width: 304px;
+  }
+
+  .alice-carousel__stage-item.__active + .alice-carousel__stage-item {
+    max-width: 304px;
   }
 
   img {
@@ -247,10 +251,6 @@ ul {
   .top-banner .carousel-caption h2 {
     font-size: 28px;
     margin: 0px;
-  }
-
-  .alice-carousel__stage-item {
-    margin-left: 40px;
   }
 
   .testimonial-image {
