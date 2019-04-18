@@ -45,10 +45,17 @@ const Testimonials = props => {
                 <Row
                   className="pb-2 pt-4"
                   style={{ borderBottom: '2px solid #dee2e6' }}>
-                  <Col md={2}>
-                    <img src="holder.js/160x120" alt="Generic placeholder" />
+                  <Col xs={6} md={2} className="testimonial-image">
+                    <img
+                      src="holder.js/100px120"
+                      alt="Generic placeholder"
+                      style={{ width: '100%' }}
+                    />
                   </Col>
-                  <Col md={2} style={{ fontSize: '20px', paddingRight: '0px' }}>
+                  <Col
+                    md={6}
+                    xs={6}
+                    style={{ fontSize: '20px', paddingRight: '0px' }}>
                     {key.name} <br /> {key.company}
                     <div
                       style={{

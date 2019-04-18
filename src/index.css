@@ -5,6 +5,12 @@
   font-family: 'Muli', sans-serif;
   font-size: 20px;
   color: #302e2f;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -191,6 +197,11 @@ ul {
     padding-right: 0px !important;
   }
 
+  .regularColPaddingMobile {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
   .top-banner img {
     height: 282px;
   }
@@ -236,6 +247,14 @@ ul {
   .top-banner .carousel-caption h2 {
     font-size: 28px;
     margin: 0px;
+  }
+
+  .alice-carousel__stage-item {
+    margin-left: 40px;
+  }
+
+  .testimonial-image {
+    padding-right: 0px;
   }
 }
 
