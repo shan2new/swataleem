@@ -23,8 +23,7 @@ const Pitch = () => {
         autoPlay={false}
         fadeOutAnimation={true}
         dotsDisabled={true}
-        buttonsDisabled={true}
-        infinite={false}>
+        buttonsDisabled={true}>
         <div
           style={{ paddingLeft: '5px', paddingRight: '5px' }}
           onDragStart={handleOnDragStart}>
