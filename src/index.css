@@ -228,6 +228,15 @@ ul {
   .alice-carousel__stage-item {
     width: 300px !important;
   }
+
+  img {
+    object-fit: cover;
+  }
+
+  .top-banner .carousel-caption h2 {
+    font-size: 28px;
+    margin: 0px;
+  }
 }
 
 .navbar-toggler-icon {
@@ -352,9 +361,4 @@ ul {
   border-radius: 0px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   background-color: #ffffff !important;
-}
-
-.top-banner .carousel-caption h2 {
-  font-size: 28px;
-  margin: 0px;
 }

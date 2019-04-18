@@ -9,7 +9,7 @@ const About = props => (
   <div>
     <Banner />
     <Values />
-    {/* <Team /> */}
+    <Team />
     <Mentor />
   </div>
 )
