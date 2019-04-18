@@ -53,7 +53,7 @@ const Testimonials = props => {
                     />
                   </Col>
                   <Col
-                    md={6}
+                    md={2}
                     xs={6}
                     style={{ fontSize: '20px', paddingRight: '0px' }}>
                     {key.name} <br /> {key.company}
