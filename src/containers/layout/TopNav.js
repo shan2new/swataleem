@@ -54,7 +54,7 @@ const TopNav = props => {
               Resources
             </Nav.Link>
             <Nav.Link
-              href="/blog"
+              href="https://swataleem.org/"
               className={{ 'current-link': curPath === 'blog' }}>
               Blog
             </Nav.Link>

@@ -44,35 +44,79 @@ const BottomNav = () => (
         </Col>
         <Col className="pt-5">
           <Row className="pb-2">
-            <Col className="theme-font">Facebook</Col>
+            <Col className="theme-font">
+              <a
+                className="theme-font"
+                href="https://www.facebook.com/swataleem/">
+                Facebook
+              </a>
+            </Col>
           </Row>
           <Row className="pb-2">
-            <Col className="theme-font">Twitter</Col>
+            <Col className="theme-font">
+              <a className="theme-font" href="">
+                Twitter
+              </a>
+            </Col>
           </Row>
           <Row className="pb-2">
-            <Col className="theme-font">Instagram</Col>
+            <Col className="theme-font">
+              <a
+                className="theme-font"
+                href="https://www.instagram.com/swataleem_ngo">
+                Instagram
+              </a>
+            </Col>
           </Row>
         </Col>
         <Col className="pt-5">
           <Row className="pb-2">
-            <Col>About</Col>
+            <Col>
+              {' '}
+              <a className="white-font" href="/about">
+                {' '}
+                About
+              </a>
+            </Col>
           </Row>
           <Row className="pb-2">
-            <Col>Work</Col>
+            <Col>
+              <a className="white-font" href="/work">
+                Work
+              </a>
+            </Col>
           </Row>
           <Row className="pb-2">
-            <Col>Resources</Col>
+            <Col>
+              <a className="white-font" href="/resources">
+                Resources
+              </a>
+            </Col>
           </Row>
         </Col>
         <Col className="pt-5">
           <Row className="pb-2">
-            <Col>Blog</Col>
+            <Col>
+              {' '}
+              <a className="white-font" href="https://swataleem.org/">
+                Blog
+              </a>
+            </Col>
           </Row>
           <Row className="pb-2">
-            <Col>Join</Col>
+            <Col>
+              {' '}
+              <a className="white-font" href="/careers">
+                Join
+              </a>
+            </Col>
           </Row>
           <Row className="pb-2">
-            <Col>Donate</Col>
+            <Col>
+              <a className="white-font" href="/donations">
+                Donate
+              </a>
+            </Col>
           </Row>
         </Col>
       </Row>
