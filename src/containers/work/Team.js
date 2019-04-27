@@ -8,7 +8,7 @@ import WorkPagePic from '../../Images/Display/workPagePic.jpg'
 import WorkPagePicMobile from '../../Images/Display/WorkImage_Mobile.png'
 
 const Team = () => (
-  <div className="mt-5">
+  <div className="mb-3">
     <Container>
       <Row>
         <Col
@@ -16,7 +16,7 @@ const Team = () => (
           className="d-none d-md-block">
           <img src={WorkPagePic} />
         </Col>
-        <Col className="d-block d-xs-block d-sm-block">
+        <Col className="d-sm-none">
           <img src={WorkPagePicMobile} style={{ maxWidth: '100%' }} />
         </Col>
       </Row>

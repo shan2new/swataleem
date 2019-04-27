@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const Values = () => (
-  <div className="mt-5">
+  <div>
     <Container className="h-100">
-      <Row className="pb-2 pt-5">
+      <Row className="pb-2 pt-3">
         <Col sm={12} md={6}>
           <div class="title-header">
             <span class="title-header-initial">project</span> KGBV

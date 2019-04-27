@@ -57,8 +57,8 @@ const Mentor = () => {
   }
 
   return (
-    <div class="pb-5">
-      <Container>
+    <div className="pb-2">
+      <Container className="pb-2">
         <Row>
           <Col>
             <div class="title-header">
