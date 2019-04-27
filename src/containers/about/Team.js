@@ -4,9 +4,13 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import Ananya from '../../Images/Display/image9.jpg'
-import Vaibhav from '../../Images/Display/image10.png'
-import Arzoo from '../../Images/Display/image13.jpg'
+import Ananya from '../../Images/Display/About_Images/AnanyaTiwari.jpg'
+import Vaibhav from '../../Images/Display/About_Images/Vaibhav.jpg'
+import Arzoo from '../../Images/Display/About_Images/Arzoo.jpg'
+
+import AnanyaMobile from '../../Images/Display/About_Images_Mobile/ananya.jpg'
+import VaibhavMobile from '../../Images/Display/About_Images_Mobile/vaibhav.jpg'
+import ArzooMobile from '../../Images/Display/About_Images_Mobile/arzoo.jpg'
 
 const Team = () => (
   <div className="mt-5">
@@ -22,7 +26,16 @@ const Team = () => (
         <Col>
           <CardDeck>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Ananya} />
+              <Card.Img
+                variant="top"
+                className="d-none d-md-block"
+                src={Ananya}
+              />
+              <Card.Img
+                variant="top"
+                className="d-sm-none"
+                src={AnanyaMobile}
+              />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Ananya Tiwari
@@ -41,7 +54,12 @@ const Team = () => (
               </Card.Body>
             </Card>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Arzoo} />
+              <Card.Img
+                variant="top"
+                className="d-none d-md-block"
+                src={Arzoo}
+              />
+              <Card.Img variant="top" className="d-sm-none" src={ArzooMobile} />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Arzoo Shakir
@@ -64,7 +82,16 @@ const Team = () => (
               </Card.Body>
             </Card>
             <Card className="remove-border">
-              <Card.Img variant="top" src={Vaibhav} />
+              <Card.Img
+                variant="top"
+                className="d-none d-md-block"
+                src={Vaibhav}
+              />
+              <Card.Img
+                variant="top"
+                className="d-sm-none"
+                src={VaibhavMobile}
+              />
               <Card.Body>
                 <Card.Title className="font-weight-bold">
                   Vaibhav Kumar
