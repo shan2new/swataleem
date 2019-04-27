@@ -73,7 +73,10 @@ const BottomNav = () => (
           <Row className="pb-2">
             <Col>
               {' '}
-              <a className="white-font" href="/about">
+              <a
+                className="white-font"
+                href="/about"
+                style={{ color: '#302e2f !important' }}>
                 {' '}
                 About
               </a>
@@ -81,14 +84,20 @@ const BottomNav = () => (
           </Row>
           <Row className="pb-2">
             <Col>
-              <a className="white-font" href="/work">
+              <a
+                className="white-font"
+                href="/work"
+                style={{ color: '#302e2f !important' }}>
                 Work
               </a>
             </Col>
           </Row>
           <Row className="pb-2">
             <Col>
-              <a className="white-font" href="/resources">
+              <a
+                className="white-font"
+                href="/resources"
+                style={{ color: '#302e2f !important' }}>
                 Resources
               </a>
             </Col>
@@ -98,7 +107,10 @@ const BottomNav = () => (
           <Row className="pb-2">
             <Col>
               {' '}
-              <a className="white-font" href="https://swataleem.org/">
+              <a
+                className="white-font"
+                href="https://swataleem.org/"
+                style={{ color: '#302e2f !important' }}>
                 Blog
               </a>
             </Col>
@@ -106,14 +118,20 @@ const BottomNav = () => (
           <Row className="pb-2">
             <Col>
               {' '}
-              <a className="white-font" href="/careers">
+              <a
+                className="white-font"
+                href="/careers"
+                style={{ color: '#302e2f !important' }}>
                 Join
               </a>
             </Col>
           </Row>
           <Row className="pb-2">
             <Col>
-              <a className="white-font" href="/donations">
+              <a
+                className="white-font"
+                href="/donations"
+                style={{ color: '#302e2f !important' }}>
                 Donate
               </a>
             </Col>
