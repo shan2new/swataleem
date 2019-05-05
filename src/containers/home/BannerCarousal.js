@@ -13,9 +13,16 @@ const BannerCarousal = props => (
       interval={1500}>
       <Carousel.Item>
         <Carousel.Caption>
-          <h2 class="font-weight-light"> Awake, Arise and Educate.</h2>
-          <h2 class="font-weight-bold">Smash traditions, liberate.</h2>
-          <p class="pt-3" style={{ color: '#ffffff' }}>
+          <h2
+            class="font-weight-light"
+            style={{ marginBottom: '0px', lineHeight: '1.3rem' }}>
+            {' '}
+            Awake, Arise and Educate.
+          </h2>
+          <h2 class="font-weight-bold" style={{ marginBottom: '0px' }}>
+            Smash traditions, liberate.
+          </h2>
+          <p class="pt-1" style={{ color: '#ffffff' }}>
             Savitri Bai Phule
           </p>
         </Carousel.Caption>
