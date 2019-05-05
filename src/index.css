@@ -389,3 +389,20 @@ ul {
 .subscribe-btn:hover {
   background: #302e2f !important;
 }
+
+@media (min-width: 1200px) {
+  .home-page-project {
+    margin-right: 9%;
+    margin-top: 1%;
+  }
+  .ongoing-project {
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+  .padding-x-50-web-only {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
