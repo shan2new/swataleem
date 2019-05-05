@@ -47,7 +47,8 @@ const BottomNav = () => (
             <Col className="theme-font">
               <a
                 className="theme-font"
-                href="https://www.facebook.com/swataleem/">
+                href="https://www.facebook.com/swataleem/"
+                target="_blank">
                 Facebook
               </a>
             </Col>
@@ -63,7 +64,8 @@ const BottomNav = () => (
             <Col className="theme-font">
               <a
                 className="theme-font"
-                href="https://www.instagram.com/swataleem_ngo">
+                href="https://www.instagram.com/swataleem_ngo"
+                target="_blank">
                 Instagram
               </a>
             </Col>

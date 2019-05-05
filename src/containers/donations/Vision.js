@@ -29,11 +29,11 @@ const Vision = () => (
         <Button
           variant="primary"
           className="theme-background remove-border fz-point-nine left-centre-aligner"
-          style={{ width: '300px', height: '60px' }}
-          type="submit">
+          style={{ width: '300px', height: '60px' }}>
           <a
             style={{ textDecoration: 'none', color: '#ffffff' }}
-            href="https://letzchange.org/campaigns/no-to-marriage-yes-to-school-help-girls-prosper-1">
+            href="https://letzchange.org/campaigns/no-to-marriage-yes-to-school-help-girls-prosper-1"
+            target="_blank">
             Donate Now
           </a>
         </Button>
