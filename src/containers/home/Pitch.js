@@ -155,7 +155,9 @@ const Pitch = props => {
               It’s a harsh reality that quality education is still a privilege
               for a major chunk of our society. The chance of getting it reduces
               manifolds with each layer of existing oppressive structure be it
-              through gender, caste or economy.
+              through gender, caste or economy. As per CASEL, 92% of surveyed
+              executive said skills such as problem solving and communication
+              are equally or more important skills than technical skills.
             </p>
           </Col>
           <Col sm={12}>{Gallery()}</Col>
