@@ -63,7 +63,10 @@ const TopNav = props => {
               className={{ 'current-link': curPath === 'careers' }}>
               Join
             </Nav.Link>
-            <Nav.Link href="/donations" style={{ color: 'purple' }}>
+            <Nav.Link
+              href="/donations"
+              style={{ color: 'purple' }}
+              className={{ 'current-link': curPath === 'donations' }}>
               Donate
             </Nav.Link>
           </Nav>
