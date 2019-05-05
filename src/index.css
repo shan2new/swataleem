@@ -406,3 +406,8 @@ ul {
     padding-right: 50px !important;
   }
 }
+
+.know-more-link:hover a,
+.know-more-link.hover a {
+  color: #ffffff !important;
+}

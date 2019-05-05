@@ -29,15 +29,25 @@ const OngoingProject = () => (
                 <Card.Title className="h5 font-weight-bold lh-15">
                   Kasturba Gandhi Balika Vidyalya
                 </Card.Title>
-                <Card.Text className="pt-3" style={{ marginBottom: '1.8rem' }}>
+                <Card.Text
+                  className="pt-3"
+                  style={{ marginBottom: '1.8rem' }}
+                  className="know-more-link">
                   We are working with ‘Kasturba Gandhi Balika Vidyalayas’ of
                   Panipat and Mewat in Haryana to create thriving communities
                   within schools.
                 </Card.Text>
                 <Button
                   variant="outline-danger"
-                  className="padding-x-50-web-only">
-                  Know More
+                  className="padding-x-50-web-only know-more-link">
+                  <a
+                    style={{
+                      textDecoration: 'none',
+                      color: '#ec3766'
+                    }}
+                    href="/work">
+                    Know More
+                  </a>
                 </Button>
               </Card.Body>
             </Card>
