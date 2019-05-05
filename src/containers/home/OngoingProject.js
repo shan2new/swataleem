@@ -13,7 +13,8 @@ const OngoingProject = () => (
       fluid
       style={{
         backgroundImage: `url(${OngoingProjectImage})`,
-        backgroundSize: '100% 577px'
+        backgroundSize: '100% 577px',
+        height: '577px'
       }}>
       <Container>
         <Row>
