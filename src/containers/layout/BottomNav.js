@@ -33,7 +33,7 @@ const BottomNav = () => (
               <Col className="remove-padding">
                 <Button
                   variant="primary"
-                  className="theme-background remove-border fz-point-nine"
+                  className="theme-background remove-border fz-point-nine subscribe-btn"
                   style={{ width: '150px', height: '47px' }}
                   type="submit">
                   Subscribe
