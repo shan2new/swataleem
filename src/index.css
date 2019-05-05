@@ -192,7 +192,7 @@ ul {
 }
 
 .current-link {
-  color: red !important;
+  color: #ec3766 !important;
 }
 
 @media (max-width: 440px) {
