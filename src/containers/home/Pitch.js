@@ -183,8 +183,9 @@ const Pitch = props => {
                   />
                   <Media.Body>
                     <p>
-                      We aim to facilitate the community-driven transformation
-                      by bringing holistic changes in education.
+                      Facilitating Cross - Functional groups of teachers,
+                      government officials and students working together to
+                      solve local problems with accountability.
                     </p>
                   </Media.Body>
                 </Media>
@@ -211,8 +212,8 @@ const Pitch = props => {
                   />
                   <Media.Body>
                     <p>
-                      We intend to do it by facilitating dialogues on improving
-                      education between different stakeholders across levels.
+                      Creating in-school platforms and Cluster platforms aimed
+                      at solving school level problems driven by the community.
                     </p>
                   </Media.Body>
                 </Media>
