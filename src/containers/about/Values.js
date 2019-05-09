@@ -59,7 +59,7 @@ const Values = () => {
         <Row>
           <Col>
             <p class="title-header">
-              <span class="title-header-initial">let's</span> work together
+              <span class="title-header-initial">our</span> values
             </p>
           </Col>
         </Row>

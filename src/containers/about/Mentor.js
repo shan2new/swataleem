@@ -44,7 +44,7 @@ const Mentor = () => (
                   Managing Director - Software R&D Center, Evive India
                 </Card.Subtitle>
                 <hr class="hr-underliner" align="left" />
-                <Card.Text>
+                <Card.Text className="fz-16">
                   Daya has around 30 Years of experience in Corporate space with
                   Accenture, Customer Asset, Evive Motorola and Zyme. She has an
                   immense experience in organization building and has been a
@@ -67,7 +67,7 @@ const Mentor = () => (
                   Department of Gender Studies, NCERT
                 </Card.Subtitle>
                 <hr class="hr-underliner" align="left" />
-                <Card.Text>
+                <Card.Text className="fz-16">
                   Prof. Mona Yadav has an experience of over 2 decades on Gender
                   and Girl Education. She has conducted researches and Teacher
                   Professional Development pertaining to KGBVs across 6 states
@@ -93,7 +93,7 @@ const Mentor = () => (
                   Founder, Manzil & Co-Founder, Safe in India
                 </Card.Subtitle>
                 <hr class="hr-underliner" align="left" />
-                <Card.Text>
+                <Card.Text className="fz-16">
                   Being a Social Activist, Educator with over 20 years of
                   experience in this space Mr. Ravi Gulati has been a constant
                   support and mentor through his valuable inputs since the

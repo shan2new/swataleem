@@ -42,7 +42,7 @@ const Team = () => (
                 </Card.Title>
                 <Card.Subtitle className="mb-1">Co-Anchor</Card.Subtitle>
                 <hr class="hr-underliner" align="left" />
-                <Card.Text>
+                <Card.Text className="fz-16">
                   Ananya studied Chemistry, Neuroscience and Liberal Arts before
                   switching to Education. She has been a teacher in a rural
                   schools, opened a school in a village, designed and
@@ -66,7 +66,7 @@ const Team = () => (
                 </Card.Title>
                 <Card.Subtitle className="mb-1">Program Lead</Card.Subtitle>
                 <hr class="hr-underliner" align="left" />
-                <Card.Text>
+                <Card.Text className="fz-16">
                   Born and raised in Kolkata, Arzoo has her bachelor's degree in
                   Urdu.Through her volunteering experience at Play for Peace
                   since 2016, she has lived through the benefits and success of
@@ -98,7 +98,7 @@ const Team = () => (
                 </Card.Title>
                 <Card.Subtitle className="mb-1">Co-Anchor</Card.Subtitle>
                 <hr class="hr-underliner" align="left" />
-                <Card.Text>
+                <Card.Text className="fz-16">
                   A Mechanical Engineer by degree and a teacher at heart, he
                   believes that quality education to every child can bring
                   equality in society. Since 2013, he has worked as a Teacher,
