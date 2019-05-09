@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
+import Button from 'react-bootstrap/Button'
 import Ananya from '../../Images/Display/About_Images/AnanyaTiwari.jpg'
 import Vaibhav from '../../Images/Display/About_Images/Vaibhav.jpg'
 import Arzoo from '../../Images/Display/About_Images/Arzoo.jpg'
@@ -112,6 +113,23 @@ const Team = () => (
           </CardDeck>
         </Col>
       </Row>
+      <Row className="pb-2 pt-2 mt-2">
+        <Col xs={12}>
+          <Button
+            variant="outline-danger"
+            className="padding-x-50-web-only know-more-link left-centre-aligner">
+            <a
+              style={{
+                textDecoration: 'none',
+                color: '#ec3766'
+              }}
+              href="/careers">
+              Join Our Team
+            </a>
+          </Button>
+        </Col>
+      </Row>
+      <Row style={{ marginBottom: '40px' }} />
     </Container>
   </div>
 )
