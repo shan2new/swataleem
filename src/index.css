@@ -377,6 +377,9 @@ ul {
 .work-container #dropdown-basic-button:hover {
   color: #ec3766;
 }
+.feed-wrapper {
+  color: #ec3766;
+}
 
 .work-container .dropdown-menu {
   transform: translate3d(-65%, 36px, 0px) !important;
@@ -410,4 +413,8 @@ ul {
 .know-more-link:hover a,
 .know-more-link.hover a {
   color: #ffffff !important;
+}
+
+.fz-18 {
+  font-size: 18px !important;
 }

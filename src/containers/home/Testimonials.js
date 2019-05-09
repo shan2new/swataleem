@@ -9,26 +9,18 @@ const Testimonials = props => {
   const [testimonials, setTestimonials] = useState([
     {
       id: 1,
-      name: 'Ayushi Chaurasia',
-      company: 'Bain Capital',
+      name: 'Daya Kori',
+      company: 'Mentor',
       description:
-        'Anaya was a student when he started his Facebook page Photography. His declining interest in his curriculum led him to follow his passion. The idea of capturing every moment was always at the back of his mind, and he finally quit his college to follow his instincts.',
+        'An extraordinary idea along with a passionate and determined team  – the result is this fine journey of SwaTaleem! I am honoured to be associated with this organization and believe in the  impact it will bring to the area of school education, specially girl education. The KGBV schools are a great place to begin this journey. Creating a support system for these schools will go a long way in building  self-sustaining communities that can then thrive on their own.',
       picUrl: 'holder.js/200x200'
     },
     {
       id: 2,
-      name: 'Ayushi Chaurasia',
-      company: 'Bain Capital',
+      name: 'Prof. Mona Yadav',
+      company: 'Mentor',
       description:
-        'Anaya was a student when he started his Facebook page Photography. His declining interest in his curriculum led him to follow his passion. The idea of capturing every moment was always at the back of his mind, and he finally quit his college to follow his instincts.',
-      picUrl: 'holder.js/200x200'
-    },
-    {
-      id: 3,
-      name: 'Ayushi Chaurasia',
-      company: 'Bain Capital',
-      description:
-        'Anaya was a student when he started his Facebook page Photography. His declining interest in his curriculum led him to follow his passion. The idea of capturing every moment was always at the back of his mind, and he finally quit his college to follow his instincts.',
+        'The girls studying in KGBV have a lot of potential and it’s heart-warming to see SwaTaleem, led by a young and determined team working together on the learning environment of these schools. The team have a good mix of intent, experience and enthusiasm. My best wishes to the team SwaTaleem',
       picUrl: 'holder.js/200x200'
     }
   ])
@@ -81,7 +73,7 @@ const Testimonials = props => {
   }
 
   return (
-    <div className="mt-5">
+    <div className="mt-5 mb-5">
       <Container>
         <Row style={{ marginBottom: '15px' }}>
           <Col>
@@ -91,14 +83,14 @@ const Testimonials = props => {
           </Col>
         </Row>
         {displayTestimonials()}
-        <Row className="pb-2 pt-2 mt-2">
+        {/* <Row className="pb-2 pt-2 mt-2">
           <Col xs={12}>
             <Button variant="outline-danger" className="left-centre-aligner">
               Read All
             </Button>
           </Col>
         </Row>
-        <Row style={{ marginBottom: '40px' }} />
+        <Row style={{ marginBottom: '40px' }} /> */}
       </Container>
     </div>
   )

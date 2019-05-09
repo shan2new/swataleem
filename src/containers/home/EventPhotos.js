@@ -61,13 +61,20 @@ const EventPhotos = () => {
       <Container>
         <Row>
           <Col>
-            <p class="title-header">
+            <p
+              class="title-header"
+              onClick={() =>
+                window.open(
+                  'https://www.instagram.com/swataleem_ngo/',
+                  '_blank'
+                )
+              }>
               <span class="title-header-initial">#</span>SwaTaleem
             </p>
           </Col>
         </Row>
       </Container>
-      <Container fluid>{Gallery()}</Container>
+      <Container>{Gallery()}</Container>
     </div>
   )
 }
