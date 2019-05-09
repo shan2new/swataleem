@@ -165,7 +165,7 @@ const Team = props => {
               border: '3px solid transparent'
             }}>
             <Card.Body className="padding-25">
-              <Card.Subtitle className="mb-4 text-muted title-header-initial fz-20 theme-font text-uppercase font-weight-bold">
+              <Card.Subtitle className="mb-4 text-muted title-header-initial fz-18 theme-font text-uppercase font-weight-bold">
                 {key.category}
               </Card.Subtitle>
               <Card.Title className="h5 font-weight-bold lh-15">
@@ -210,19 +210,29 @@ const Team = props => {
                 id="dropdown-basic-button"
                 title="Show All"
                 variant="dropdown">
-                <Dropdown.Item onClick={() => setSelectedCategory(1)}>
+                <Dropdown.Item
+                  onClick={() => setSelectedCategory(1)}
+                  className={{ 'current-link': selectedCategory === 1 }}>
                   All Resources
                 </Dropdown.Item>
-                <Dropdown.Item onClick={() => setSelectedCategory(2)}>
+                <Dropdown.Item
+                  onClick={() => setSelectedCategory(2)}
+                  className={{ 'current-link': selectedCategory === 2 }}>
                   Workshop Modules
                 </Dropdown.Item>
-                <Dropdown.Item onClick={() => setSelectedCategory(3)}>
+                <Dropdown.Item
+                  onClick={() => setSelectedCategory(3)}
+                  className={{ 'current-link': selectedCategory === 3 }}>
                   Annual Reports
                 </Dropdown.Item>
-                <Dropdown.Item onClick={() => setSelectedCategory(4)}>
+                <Dropdown.Item
+                  onClick={() => setSelectedCategory(4)}
+                  className={{ 'current-link': selectedCategory === 4 }}>
                   Newsletters
                 </Dropdown.Item>
-                <Dropdown.Item onClick={() => setSelectedCategory(5)}>
+                <Dropdown.Item
+                  onClick={() => setSelectedCategory(5)}
+                  className={{ 'current-link': selectedCategory === 5 }}>
                   Experiences
                 </Dropdown.Item>
               </DropdownButton>

@@ -13,14 +13,15 @@ const OngoingProject = () => (
       fluid
       style={{
         backgroundImage: `url(${InternshipBanner})`,
-        backgroundSize: '100% 577px'
+        backgroundSize: '100% 577px',
+        height: '577px'
       }}>
-      <Container>
+      <Container className="home-page-project">
         <Row>
           <Col xs={0} md={3} />
           <Col xs={0} md={3} />
           <Col>
-            <Card className="remove-border">
+            <Card className="remove-border ongoing-project">
               <Card.Body className="padding-25">
                 <Card.Subtitle className="mb-2 text-muted title-header-initial fz-20">
                   Get Involved

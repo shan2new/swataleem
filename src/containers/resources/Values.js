@@ -11,7 +11,7 @@ import Collaboration from '../../Images/icons/Basics/Collaboration.svg'
 const Values = () => (
   <div className="mt-5">
     <Container className="h-100">
-      <Row className="pb-2 pt-5">
+      <Row className="pb-2">
         <Col sm={12} md={6}>
           <div class="title-header">
             <span class="title-header-initial">our</span> resources

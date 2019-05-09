@@ -28,7 +28,7 @@ const Vision = () => (
       <Col xs={12}>
         <Button
           variant="primary"
-          className="theme-background remove-border fz-point-nine left-centre-aligner"
+          className="theme-background remove-border fz-point-nine left-centre-aligner subscribe-btn"
           style={{ width: '300px', height: '60px' }}>
           <a
             style={{ textDecoration: 'none', color: '#ffffff' }}

@@ -31,9 +31,7 @@ const JobQuery = () => (
         <div style={{ display: 'inline-block' }}>
           Send your resumes to careers{' '}
           <span>
-            <a
-              class="theme-font font-weight-bold"
-              href="mailto:careers@swataleem.com">
+            <a class="theme-font" href="mailto:careers@swataleem.com">
               careers@SwaTaleem.com
             </a>
           </span>
