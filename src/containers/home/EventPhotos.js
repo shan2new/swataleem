@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import Container from 'react-bootstrap/Container'
@@ -7,6 +7,57 @@ import Col from 'react-bootstrap/Col'
 
 const EventPhotos = () => {
   const Gallery = () => {
+    const [pics, setPics] = useState([
+      'holder.js/98px300?auto=yes',
+      'holder.js/98px300?auto=yes',
+      'holder.js/98px300?auto=yes',
+      'holder.js/98px300?auto=yes'
+    ])
+
+    const [requestSent, setRequestSent] = useState(false)
+
+    if (!requestSent) {
+      window.localStorage.setItem('requestSent', 1)
+      fetch(
+        'https://api.instagram.com/v1/users/self/media/recent/?access_token=10638813309.4f1b685.41761218e902489fbd3841b10bfe2ec5&count=20'
+      )
+        .then(data => {
+          return data.json()
+        })
+        .then(images => {
+          console.log(images)
+          let imagesList = images.data
+          let imageUrlsList = []
+
+          if (imagesList) {
+            imagesList.forEach(imageObj => {
+              if (!imageObj.videos) {
+                imageUrlsList.push(imageObj.images.low_resolution.url)
+              }
+            })
+            setPics(imageUrlsList)
+          }
+
+          setRequestSent(true)
+        })
+    }
+
+    const displayImages = () => {
+      let imagesToDisplay = []
+      pics.forEach(picUrl => {
+        imagesToDisplay.push(
+          <img
+            src={picUrl}
+            onDragStart={handleOnDragStart}
+            className="yours-custom-class"
+            style={{ width: '272px !important', height: '300px' }}
+          />
+        )
+      })
+
+      return imagesToDisplay
+    }
+
     const handleOnDragStart = e => e.preventDefault()
     let responsive = {
       0: { items: 1 },
@@ -22,36 +73,7 @@ const EventPhotos = () => {
         fadeOutAnimation={true}
         dotsDisabled={true}
         buttonsDisabled={true}>
-        <img
-          src="holder.js/98px300?auto=yes"
-          onDragStart={handleOnDragStart}
-          className="yours-custom-class"
-        />
-        <img
-          src="holder.js/98px300?auto=yes"
-          onDragStart={handleOnDragStart}
-          className="yours-custom-class"
-        />
-        <img
-          src="holder.js/98px300?auto=yes"
-          onDragStart={handleOnDragStart}
-          className="yours-custom-class"
-        />
-        <img
-          src="holder.js/98px300?auto=yes"
-          onDragStart={handleOnDragStart}
-          className="yours-custom-class"
-        />
-        <img
-          src="holder.js/98px300?auto=yes"
-          onDragStart={handleOnDragStart}
-          className="yours-custom-class"
-        />
-        <img
-          src="holder.js/98px300?auto=yes"
-          onDragStart={handleOnDragStart}
-          className="yours-custom-class"
-        />
+        {displayImages()}
       </AliceCarousel>
     )
   }
