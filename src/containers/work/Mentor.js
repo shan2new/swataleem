@@ -67,7 +67,7 @@ const Mentor = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid>{Gallery()}</Container>
+      <Container>{Gallery()}</Container>
     </div>
   )
 }
