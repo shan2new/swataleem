@@ -14,7 +14,8 @@ const OngoingProject = () => (
       style={{
         backgroundImage: `url(${InternshipBanner})`,
         backgroundSize: '100% 577px',
-        height: '577px'
+        height: '577px',
+        marginBottom: '0px !important'
       }}>
       <Container className="home-page-project">
         <Row>

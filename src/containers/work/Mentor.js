@@ -25,7 +25,6 @@ const Mentor = () => {
           return data.json()
         })
         .then(images => {
-          console.log(images)
           let imagesList = images.data
           let imageUrlsList = []
 
