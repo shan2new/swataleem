@@ -8,7 +8,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 // import Mona from '../../Images/Display/image8.jpg'
 // import Ravi from '../../Images/Display/image7.jpg'
 
-import Daya from '../../Images/Display/About_Images/Daya.jpg'
+import Daya from '../../Images/Display/About_Images/daya.jpg'
 import Mona from '../../Images/Display/About_Images/mona.jpg'
 import Ravi from '../../Images/Display/About_Images/RaviGulati.jpg'
 
