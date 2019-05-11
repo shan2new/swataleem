@@ -13,13 +13,8 @@ const Banner = () => (
       indicators={false}>
       <Carousel.Item>
         <Carousel.Caption>
-          <h2 class="font-weight-light"> Every child has access to</h2>
-          <h2 class="font-weight-bold adjust-line-height">
-            learner-centric quality education
-          </h2>
-          <p class="pt-3" style={{ color: '#ffffff' }}>
-            Our Education
-          </p>
+          <h2 class="font-weight-light"> our </h2>
+          <h2 class="font-weight-bold adjust-line-height">work</h2>
         </Carousel.Caption>
         <img className="d-block w-100" src={WorkBanner} alt="First slide" />
       </Carousel.Item>

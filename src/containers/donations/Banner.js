@@ -13,12 +13,12 @@ const Banner = () => (
       indicators={false}>
       <Carousel.Item>
         <Carousel.Caption>
-          <h2 class="font-weight-light"> Together</h2>
+          <h2 class="font-weight-light"> Every one deserves</h2>
           <h2 class="font-weight-bold adjust-line-height">
-            we can do great things.
+            the right to education.
           </h2>
           <p class="pt-3" style={{ color: 'inherit' }}>
-            Mother Teresa
+            Donate to be a part of the change.
           </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={DonateBanner} alt="First slide" />

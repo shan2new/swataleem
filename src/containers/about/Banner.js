@@ -18,7 +18,7 @@ const Banner = () => (
             learner-centric quality education
           </h2>
           <p class="pt-3" style={{ color: '#ffffff' }}>
-            Our Education
+            Our Vision
           </p>
         </Carousel.Caption>
         <img className="d-block w-100" src={AboutBanner} alt="First slide" />
